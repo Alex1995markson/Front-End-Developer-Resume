@@ -1,0 +1,241 @@
+/*mobule first */
+@media all and (min-width: 320px) and (max-width: 576px) { 
+    /* header*/
+    .tx-first {
+        font-size: 18px;
+    }
+    .tx-big {
+        font-size: 26px;
+    }
+    .tx-you {
+        font-size: 24px;
+    }
+    .tx-mid {
+        font-size: 16px;
+    }
+    .left-padding {
+        font-size: 10px;
+    }
+    header .col-3 {
+        display: none;
+    }
+    .left-padding {
+        padding-left: 0;
+        text-align: center;
+    }
+    .header .w-100 {
+        display: none;
+    }
+    /* basketman */
+    /* Надо переписать все стили для этого
+        1) Сделать управление для col-6
+        2) */
+    .basketman {
+        margin: 0;
+    }
+    .basketman .col-6 {
+        padding-bottom: 20px;
+    }
+    .basketman .row{
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .basketman img {
+        height: 240px;
+    }
+    .subtitle {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .x-block {
+        top: 0
+    }
+    .main-title {
+        font-size: 17px;
+        padding-bottom: 2px;
+    }
+    .text-decription-bas {
+        margin: 0;
+        font-size: 11px;
+        color: #2b2c2e;
+        padding-bottom: 5px; 
+    }
+    .text-long {
+        margin: 0;
+        padding: 0;
+        font-size: 9px;
+        color: #4c4d4f;
+    
+    }
+    /* short-description */
+    .short-description .col-6 {
+        display: inline-block;
+        margin: 30px auto;
+        padding: 0;
+    }
+    .flex-season {
+        font-size: 20px;
+    }
+    .flex-year {
+        font-size: 26px;
+    }
+    .flex-text {
+        font-size: 20px;
+    }
+    .text-decription {
+        font-size: 26px;
+    }
+    /* x-padding*/
+    .x-padding {
+        padding-top: 25px;
+    }
+    .x-padding .row {
+        flex-flow: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .x-padding .col-3 {
+        /* display: inline-block; */
+        margin: 30px auto;
+    }
+    .x-padding .col-3 {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    /* evening_event  */
+    .evening_event .row {
+        flex-flow: column !important;
+   ;
+        /* align-items: center !important; */
+        /* justify-content: center !important;
+        margin: 0;
+        padding: 0; */
+    }
+    .evening_event .col-2 {
+        margin: 30px auto;
+        text-align: center;
+        justify-content: baseline;
+    }
+    .name_bask_play {
+        display: none;
+    }
+    /* footer*/
+    .foo-wrap {
+
+        padding: 0;
+    }
+    .foo-head {
+        font-size: 34px;
+        padding: 10px 10px;
+    }
+    .foo-descr {
+        font-size: 18px;
+        color: grey;
+    } 
+    
+ }
+@media all and (min-width: 578px) and (max-width: 768px) {
+    .tx-first {
+        font-size: 18px;
+    }
+    .tx-big {
+        font-size: 26px;
+    }
+    .tx-you {
+        font-size: 24px;
+    }
+    .tx-mid {
+        font-size: 16px;
+    }
+    .left-padding {
+        font-size: 10px;
+    }
+    header nav .nav-link {
+        font-size: 18px;
+        line-height: 1;
+    }
+    header .col-3 {
+        display: none;
+    }
+    .left-padding {
+        padding-left: 0;
+        text-align: center;
+    }
+    .header .w-100 {
+        display: none;
+    }
+    /* basketman */
+    .basketman {
+        margin: 0;
+    }
+    .basketman .col-6 {
+        padding-bottom: 20px;
+    }
+    .basketman .row{
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .basketman img {
+        height: 340px;
+    }
+    .subtitle {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .x-block {
+        top: 0
+    }
+    .main-title {
+        font-size: 17px;
+        padding-bottom: 2px;
+    }
+    .text-decription-bas {
+        margin: 0;
+        font-size: 11px;
+        color: #2b2c2e;
+        padding-bottom: 5px; 
+    }
+    .text-long {
+        margin: 0;
+        padding: 0;
+        font-size: 9px;
+        color: #4c4d4f;
+    
+    }
+    /* short-descrition */
+    .short-description .col-6 {
+        display: inline-block;
+        margin: 30px auto;
+        padding: 0;
+    }
+    .flex-season {
+        font-size: 30px;
+    }
+    .flex-year {
+        font-size: 46px;
+    }
+    .flex-text {
+        font-size: 30px;
+    }
+    .text-decription {
+        font-size: 36px;
+    }
+    .evening_event .row {
+        flex-flow: column !important;
+    }
+    .evening_event .col-2 {
+        margin: 30px auto;
+        text-align: center;
+        justify-content: baseline;
+    }
+    .name_bask_play {
+        display: none;
+    }
+  
+}
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
