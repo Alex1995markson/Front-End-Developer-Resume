@@ -26,6 +26,9 @@
     .header .w-100 {
         display: none;
     }
+    .d-none-icon {
+        display: none;
+    }
     /* basketman */
     /* Надо переписать все стили для этого
         1) Сделать управление для col-6
@@ -105,6 +108,9 @@
     }
     /* evening_event  */
     .evening_event .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-flow: column !important;
    ;
         /* align-items: center !important; */
@@ -114,11 +120,15 @@
     }
     .evening_event .col-2 {
         margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         justify-content: baseline;
     }
-    .name_bask_play {
+    .evening_event .name_bask_play {
         display: none;
+        visibility: hidden;
     }
     /* footer*/
     .foo-wrap {
@@ -233,9 +243,55 @@
     .name_bask_play {
         display: none;
     }
-  
+    .d-none-icon {
+        display: none;
+    }
 }
-
-@media (min-width: 992px) {  }
-
+@media all and (min-width: 768px) and (max-width: 992px) { 
+    /* header */
+    .d-none-icon {
+        display: none;
+    }
+    .tx-first {
+        font-size: 34px;
+    }
+    .tx-big {
+        font-size: 40px;
+    }
+    .tx-you {
+        font-size: 40px;
+    }
+    .tx-mid {
+        font-size: 29px;
+    }
+    .left-padding {
+        text-align: center;
+        font-size: 14px;
+    }
+    /* basketman */
+    .x-block {
+        top: 10%;
+    }
+    .subtitle {
+        font-size: 36px;
+        letter-spacing: 2px;
+    }
+    .main-title {
+        font-size: 34px;
+        padding-bottom: 2px;
+    }
+    .text-decription-bas {
+        margin: 0;
+        font-size: 20px;
+        color: #2b2c2e;
+        padding-bottom: 5px; 
+    }
+    .text-long {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #4c4d4f;
+    
+    }
+  }
 @media (min-width: 1200px) {  }
