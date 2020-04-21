@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Francois+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TODO 
+    1) Make a distance between some blocks
+    2) I can't hook up lib jQuery throught NPM
+    3) I choose images for website--> 
+    <header class="">
+
+    </header>
+
+    <div class="w-100 position-relative bg-light">
+        <!-- What is main-layout-->
+        <div class="">
+            <div class="container">
+                <div class="row mt-2 mt-lg-4">
+                    <div class="col-12 col-lg-7">
+                        <!-- Make a font with sass-->
+                        <h1 class="">FAIR WIND <br>
+                        <span class="d-none d-lg-block">Fast search auto</span></h1>
+                    </div>
+                    <div class="col-12 col-lg-5 mt-3 mt-lg-2 order-2 mb-2 mb-lg-0 order-lg-1">
+                        <div class="row">
+                            <div class="col-6 pr-4 mt-1">
+                                <div class="text-muted">Our industry has </div>
+                                <p class="" style="line-height: 1.29;">
+                                   <a href="#" class="text-truncate">19000 Mini-Vans
+                                </a>  
+                                </p>
+                                <p class="" style="line-height: 1.29;">
+                                    <a href="#" class="text-truncate">21041 Sedan
+                                 </a>  
+                                 </p>
+                                 <p class="" style="line-height: 1.29;">
+                                    <a href="#" class="text-truncate">1591 Supercar
+                                 </a>  
+                                 </p>
+                            </div>
+                            <div class="col-6 pr-3 mt-1">
+                                <div class="text-muted">We are the service that estimates fairly the issues with the car</div>
+                                <p><a href="#">Passport auto</a>, history of sales/rents, autoconfiguration cars</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                        Make own class for presearch listing
+                        and presearch-listing__search
+                    -->
+
+
+                    
+                </div>
+            </div>
+            <!-- need that block locates under small text-->
+            <div class="container presearch-listings">
+
+                    <div class=" mb-lg-2">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                preventative maintenance
+                            </a>
+                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                common repairs
+                            </button>
+                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                transmission repair
+                            </button>
+                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                electrical diagnostics
+                            </button>
+                          </p>
+                          <!-- Change a size of text and distace between input and labels-->
+                          <div class="collapse" id="collapseExample">
+                            <form class="form-inline">
+                                <div class="form-inline mb-2">
+                                  <label for="staticEmail2">Price from</label>
+                                  <input type="money" class="form-control" id="staticEmail2" value="Price from">
+                                </div>
+                                <div class="form-group mx-sm-3 mb-2">
+                                  <label for="inputPassword2" class="sr-only"></label>
+                                  <input type="password" class="form-control" id="inputPassword2" placeholder="Price to">
+                                </div>
+                                <div class="form-group mx-sm-3 mb-2">
+                                    <label for="inputPassword3" class="sr-only"></label>
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Waiting time from">
+                                </div>
+                                <div class="form-group mx-sm-3 mb-2">
+                                    <label for="inputPassword4" class="sr-only"></label>
+                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Waiting to">
+                                </div>
+                                <!-- long input -->
+                                <div class="form-group mx-sm-3 mb-2 position-relative">
+                                    <label for="inputPassword5" class="sr-only">Address</label>
+                                    <input type="password" class="form-control " id="inputPassword5" placeholder="Address">
+                                    <!-- Transfer style
+                                    be nice (add style for it)-->
+                                    <span class="position-absolute" style="left: 90%; "><i class="fas fa-thumbtack"></i></span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+                              </form>
+                          </div>
+                          <div class="collapse" id="collapseExample1">
+                            <div class="card card-body">
+                              I love this 
+                            </div>
+                          </div>
+                    </div>
+ 
+            </div>
+        </div>
+        <!-- Need special style for wrapper each block
+        1) inside div with col-12 delete bg-info-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h2>
+                        Services and Facilities
+                    </h2>
+                </div>
+                <div class="col-12 col-lg-4 col-4 mb-4">
+                    <div class="bg-info service-img__invest">
+                        <h2 class="h4 mt-lg-4">Inside car </h2>
+                        <p>Lorem ipsum dolor sit.<br>
+                        Lorem, ipsum dolor.</p>
+                        <a class="btn btn-sm btn-white"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-4 mb-4">
+                    <div class="bg-info service-img__painting">
+                        <h2 class="h4 mt-lg-4">Inside car </h2>
+                        <p>Lorem ipsum dolor sit.<br>
+                        Lorem, ipsum dolor.</p>
+                        <a class="btn btn-sm btn-white"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-4 mb-4">
+                    <div class="bg-info service-img__engine">
+                        <h2 class="h4 mt-lg-4">Inside car </h2>
+                        <p>Lorem ipsum dolor sit.<br>
+                        Lorem, ipsum dolor.</p>
+                        <a class="btn btn-sm btn-white"></a>
+                    </div>
+                </div>
+                <div class="col-12 mb-2">
+                    <div class="bg-img-hero-center service-img__fullimg">
+                        <h2 class="w-60">Free subscribe</h2>
+                        <p class="w-60 d-none d-md-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum non mollitia aliquam, ut maiores, quaerat aspernatur veritatis dicta 
+                            porro quos ullam facere nesciunt expedita corrupti laborum.</p>
+                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Active</a>    
+                        <a class="btn btn-danger text-black d-none d-md-inline-block mb-7  ">NonActive</a>    
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="w-100 overflow-hidden">
+            <!-- Do more prettier-->
+            <div class="car-wrapper__slider h-100 position-relative">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- make a card with auto-->
+                        <div class="card" style="width: 18em;">
+                            <div class="card_img__car">
+                                <img src="img/swipper_most_popolar_listing/asphalt-auto-automobile-brand.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Testdrive</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 18em;">
+                            <div class="card_img__car">
+                                <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Testdrive</a>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                    <div class="swiper-slide">Slide 10</div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-5 mb-lg-4 ">
+                <img src="img/carrepair-img-11.png">
+            </div>
+            <div class="col-12 col-lg-7 mb-lg-4">
+                <div class="d-flex flex-column">
+                    <h3>Schedule your appointment today</h3>
+                    <p>call: 1-800-123-45678</p>
+                    <p>Great guys! I  recommend this service to everyone who looks for quality!</p>
+                    <div class="d-none d-inline-block">
+                        <a class="btn btn-sm btn-dark">Book an appointment</a>
+                        <a class="btn btn-sm btn-info">Get quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- news about cars-->
+    <div class="w-100">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex">
+                    <a class="d-block mr-4">News</a>
+                    <a class="d-block mr-4">Fabebook</a>
+                    <a class="d-block mr-4">Twitter</a>
+                    <a class="d-block mr-4">Instagram</a>
+                </div>
+            </div>
+            <!-- Need find a row--adaptive -->
+            <div class="row">
+                <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                        <!-- Add style in main.css-->
+                        <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/painting_bmw.jpg');">
+
+                        </div>
+                        <h5>Title for news</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
+                            Sequi, atque vitae.</p>
+                        <div class="small text-muted position-absolute bottom-0 left-0 pb-2 pb-md-3 pl-2 pl-md-3">grg efgr</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                        <!-- Add style in main.css-->
+                        <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/painting_bmw.jpg');">
+
+                        </div>
+                        <h5>Title for news</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
+                            Sequi, atque vitae.</p>
+                        <div class="small text-muted position-absolute bottom-0 left-0 pb-2 pb-md-3 pl-2 pl-md-3">grg efgr</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                        <!-- Add style in main.css-->
+                        <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/painting_bmw.jpg');">
+
+                        </div>
+                        <h5>Title for news</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
+                            Sequi, atque vitae.</p>
+                        <div class="small text-muted position-absolute bottom-0 left-0 pb-2 pb-md-3 pl-2 pl-md-3">grg efgr</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                        <!-- Add style in main.css-->
+                        <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/painting_bmw.jpg');">
+
+                        </div>
+                        <h5>Title for news</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
+                            Sequi, atque vitae.</p>
+                        <div class="small text-muted position-absolute bottom-0 left-0 pb-2 pb-md-3 pl-2 pl-md-3">grg efgr</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sliderT_block ">
+        <div class="w-100 ">
+            <div class="d-flex flex-row justify-content-center align-content-center container-sliderT">
+                <div class="sliderT-block__big position-relative">
+                    <!-- <span> latest news</span>
+                    <h3 class="text-upppercase">top insights on the <br>
+                        CURRENT INDUSTRY
+                    </h3> -->
+                    <!-- need locate -->
+                    <div class="wrapper_container_sm">
+                        <div class="container_slider-block-big">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">Slide 1</div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                                <div class="swiper-slide">Slide 4</div>
+                                <div class="swiper-slide">Slide 5</div>
+         
+                            </div>        
+                            <!-- pagination-->
+                            <div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>    
+                        </div>     
+                        </div>
+                </div>
+        
+                <div class="sliderT-block__sml align-self-center">
+
+                    <form class="container">
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                      </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- little slider with brand of cars -->
+    <div class="little_slider container-fluid">
+        <div class="w-100 position-relative little_slider_wrapper">
+            <div class="d-flex">           
+                <div class="little_slider__container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                        </div>
+                        <div class="swiper-slide"></div>
+                        <div class="swiper-slide">
+                            <img src="img/jaguar.png" height="250px" width="250px" alt="Jaguar Brand">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/jaguar.png" height="250px" width="250px" alt="Jaguar Brand">
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/jaguar.png" height="250px" width="250px" alt="Jaguar Brand">
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/jaguar.png" height="250px" width="250px" alt="Jaguar Brand">
+
+                        </div>
+                
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- footer -->
+    <!-- set color for with block-->
+    <footer class="container-fluid w-100 ">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 mb-lg-0">
+                <div class="d-flex flex-column">
+                    <h5 class="">About</h5>
+                    <p class=""> Worky is the leader of providing architect services and implementing ideas! 
+                        We are here to meet your demand and resolve architecture issues the most beneficial 
+                        way for you. Our skilled experts are able to resolve complex and unusual cases in 
+                        the shortest time
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 mb-lg-0">
+                <div class="d-flex flex-column flex-wrap">
+                    <h5 class="">Tag</h5>
+                    <div class="d-flex flex-row flex-wrap">
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 mb-lg-0">
+                <div class="d-flex flex-column">
+                    <h5 class="">RECENT COMMENTS</h5>
+                    <div class="footer-comment">
+                        <span class="footer-comment__author">Admin</span>
+                        <span class="footer-comment__date"> July 4, 2020</span>
+                        <p class="footer-comment__article d-block">
+                            SUSTAINABLE CAR DESIGN
+                        </p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <div class="w-100 bg-dark">
+        <div class=" ">
+            <p>LOL</p>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./node_modules/swiper/js/swiper.min.js"></script>
+    <script>
+        /*first slider */
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+       
+      </script>
+
+      <script>
+        /* second slider*/  
+        var swiper = new Swiper('.container_slider-block-big', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'progressbar',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+      </script>
+      <!-- 
+          third slider
+      -->
+      <script>
+        var swiper = new Swiper('.little_slider__container', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          centeredSlides: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
+</body>
+</html>

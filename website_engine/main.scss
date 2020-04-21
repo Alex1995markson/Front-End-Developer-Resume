@@ -1,0 +1,149 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* 
+install this font for a website
+font-family: 'Amiri', serif;
+font-family: 'Francois One', sans-serif;
+*/
+
+/* change soo long*/
+.service-img__invest {
+    background-image: url('../img/black-lamborghini-vehicle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.service-img__painting {
+    background-image: url('../img/painting_bmw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.service-img__engine {
+    background-image: url('../img/vehicle-engine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.service-img__fullimg {
+    background-image: url('../img/car-vehicle-vintage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* swipper first */
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+.swiper-slide {
+    width: 18em !important;
+    height: 20em;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.car-wrapper__slider {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+/* Think how to make the same size of all pictures */
+.card_img__car {
+    // object-fit: cover;
+    max-width: 100%;
+    height: 250px;
+
+    img {
+        max-width: 100%;
+        height: auto;  
+ 
+    }
+    
+}
+/* footer container */
+.footer-tags__obj {
+     margin: 2px;
+    padding: 1em;
+    border: 1px solid blue;
+}
+/* sliderT_block */
+.container-sliderT {
+    // position: relative;
+}
+.container-sliderT {
+    min-height: 100%;
+    position: relative;
+}
+
+.sliderT-block__big {
+    // position: absolute;
+    height: 1000px;
+    background-color: #333;
+    width: 100%;
+    
+}
+
+.sliderT-block__sml {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+}
+/* code for slider */
+.wrapper_container_sm {
+    // position: relative;
+    background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+}
+.container_slider-block-big {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      overflow: hidden;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+}
+
+/* little slider container*/ 
+/* на сайте все имею один и тот же контейнер не лучше ли сделать
+один стиль для всех */
+.little_slider_wrapper {
+    margin: 0;
+    padding: 0;
+ }
+.little_slider__container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
