@@ -1,0 +1,19 @@
+{
+  "name": "templete_monster",
+  "description": {
+    "bootstrap": "4.4.1",
+    "jquery": "3.4.1",
+    "swiper": "5.3.1",
+    "popper": "^1.0.1"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
