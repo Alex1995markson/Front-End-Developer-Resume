@@ -19,6 +19,9 @@ header {
 header .col-4 {
     padding: 0;
 }
+.article-text  {
+    overflow: hidden;
+}
 /* make fullsize for navbar */
 .without-padding {
     padding: 0;
@@ -37,7 +40,7 @@ header .col-4 {
     color: #fa311f;
 }
 .nav-link {
-    font-size: 23px;
+    font-size: 20px;
     color: #fa311f;
 }
 /* end */
@@ -47,6 +50,7 @@ header .col-4 {
     padding-top: 60px;
 }
 .basketman {
+    overflow: hidden;
     min-height: 630px;
     font-family: 'Poppins', sans-serif; 
 }
@@ -58,6 +62,8 @@ header .col-4 {
 }
 .x-block {
     top: 20%;
+    max-width: 530px;
+   
 }
 .main-title {
     font-size: 36px;
