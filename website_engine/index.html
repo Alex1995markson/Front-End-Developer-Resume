@@ -11,18 +11,60 @@
 </head>
 <body>
     <!-- TODO 
-    1) Make a distance between some blocks
+    1) Make a distance between some block
     2) I can't hook up lib jQuery throught NPM
-    3) I choose images for website--> 
-    <header class="">
+    3) I choose images for website
+    4) Didnt wrk downmenu
+    5) Make a botder for avatar 
+    6) Hover effect didn't work
+    7) Create own rounded--> 
+    <header class="header w-100">
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="/img/invert-logo.webp" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-light"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">New</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Used</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sell or Traded
+                  </a>
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">INFINITI</a>
+                    <a class="dropdown-item" href="#">BMW</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">KIA</a>
+                  </div>
+                </li>
 
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <span class=""></span>
+              </form>
+              <div class="d-inline-block my-2 my-lg-0">
+                  <span class="account_header">
+                    <i>AM</i>
+                  </span>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <div class="w-100 position-relative bg-light">
+    <div class="w-100 position-relative bg-light form-search">
         <!-- What is main-layout-->
-        <div class="">
-            <div class="container">
-                <div class="row mt-2 mt-lg-4">
+            <div class="container ">
+                <div class="row ">
                     <div class="col-12 col-lg-7">
                         <!-- Make a font with sass-->
                         <h1 class="">FAIR WIND <br>
@@ -118,9 +160,11 @@
  
             </div>
         </div>
+      
         <!-- Need special style for wrapper each block
         1) inside div with col-12 delete bg-info-->
-        <div class="container">
+    <article class="service_block ">    
+        <div class="container ">
             <div class="row">
                 <div class="col-12 mb-3">
                     <h2>
@@ -161,8 +205,9 @@
                         </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>  
+    </article>      
+    
     <div class="container">
         <div class="w-100 overflow-hidden">
             <!-- Do more prettier-->

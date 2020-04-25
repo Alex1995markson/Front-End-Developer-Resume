@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="114px" height="114px" viewBox="0 0 114 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Pack the order2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.39488462e-14 0 14.2857143 0 41.7857143 0 41.7857143 41 6.39488462e-14 41"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="41.7857143" height="41" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="39.7402597" y="0" width="20.2597403" height="41"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20.2597403" height="41" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Pack-the-order">
+            <g>
+                <ellipse id="Oval-12-Copy" fill="#EDEEF2" cx="57" cy="57" rx="57" ry="57"></ellipse>
+                <g id="Group-3-Copy-3" transform="translate(27.000000, 38.000000)">
+                    <use id="Rectangle-16-Copy-8" stroke="#384773" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" transform="translate(20.892857, 20.500000) scale(-1, 1) translate(-20.892857, -20.500000) " xlink:href="#path-1"></use>
+                    <rect id="Rectangle-12" fill="#733A26" x="27" y="26" width="10" height="10"></rect>
+                    <rect id="Rectangle-4" fill="#733A26" x="5.71428571" y="6" width="13" height="2"></rect>
+                    <use id="Rectangle-16-Copy-10" stroke="#384773" mask="url(#mask-4)" stroke-width="4" fill="#A6998A" transform="translate(49.870130, 20.500000) scale(-1, 1) translate(-49.870130, -20.500000) " xlink:href="#path-3"></use>
+                    <path d="M58.9285714,18 L40.7142857,18" id="Path-24-Copy-5" stroke="#384773" stroke-width="2"></path>
+                    <path d="M58.9285714,10.5 L40.7142857,10.5" id="Path-24-Copy-6" stroke="#384773"></path>
+                </g>
+                <path d="M61.0081126,36.80977 L61.9132233,36.6587629 C64.3470485,36.2532807 66.2532807,34.3470485 66.6587629,31.9141555 L66.80977,31.0081126 C67.0334843,29.6639625 68.9658166,29.6639625 69.190463,31.0081126 L69.340538,31.9141555 C69.7469523,34.3470485 71.6531846,36.2532807 74.0860776,36.6587629 L74.9911883,36.80977 C76.3362706,37.0334843 76.3362706,38.9658166 74.9911883,39.190463 L74.0860776,39.3414702 C71.6531846,39.7469523 69.7469523,41.6531846 69.340538,44.0860776 L69.190463,44.9921205 C68.9658166,46.3362706 67.0334843,46.3362706 66.80977,44.9921205 L66.6587629,44.0860776 C66.2532807,41.6531846 64.3470485,39.7469523 61.9132233,39.3414702 L61.0081126,39.190463 C59.6639625,38.9658166 59.6639625,37.0334843 61.0081126,36.80977 Z" id="Page-1-Copy-9" stroke="#384773" stroke-width="2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

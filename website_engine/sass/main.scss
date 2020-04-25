@@ -1,10 +1,54 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+ @import "../node_modules/bootstrap/scss/bootstrap";
+ @import "modules/_base.scss";
+ @import "modules/_variables.scss";
+ @import "modules/_navbar.scss";
 
-/* 
+
+
+/*
 install this font for a website
 font-family: 'Amiri', serif;
 font-family: 'Francois One', sans-serif;
 */
+
+
+/* header -> navbar*/
+
+/* make avatar*/
+.account_header {
+    display: flex;
+    align-items: center;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: $navbar-light-hover-color;
+}
+.account_header > i {
+    text-align: center;
+    padding: 0.4em;
+    vertical-align: middle;
+}
+/* form-search*/
+.form-search {
+    height: 90vh;
+
+    background-image: url('../img/bg-41.webp');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+/*"service_block */
+.service_block {
+    height: 100vh;
+}
+.service-img__invest {
+    min-height: 340px;
+}
+.service-img__painting {
+    min-height: 340px;
+}
+.service-img__engine {
+    min-height: 340px;
+}
 
 /* change soo long*/
 .service-img__invest {

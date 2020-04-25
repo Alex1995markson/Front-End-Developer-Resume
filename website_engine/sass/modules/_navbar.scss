@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $nav-bg;
+    opacity: 0.9;
+}
+.navbar-brand {
+  /* some styles*/  
+}
+.nav-link {
+    color: $nav-text-color;
+    text-transform: uppercase;
+    @include hover-focus() {
+        color: $navbar-light-hover-color;
+      }
+}
+/*Don't work */
+.navbar-toggler-icon {
+    color: red !important;
+    
+}
+/* make other input search*/
