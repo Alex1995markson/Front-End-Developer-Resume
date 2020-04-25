@@ -13,6 +13,9 @@ window.addEventListener("load", function(event) {
         rootMargin: '0px',
         threshold: threshold
     };
+    // var contFirst = 
+    // $('.gallery .column.first img.first').css("margin-top", "60px ");
+    // this.console.log(contFirst);
     const observer = new IntersectionObserver(animHandler, options);
     const targets = document.querySelectorAll("article");
     const ar = [].slice.call(targets); 
@@ -27,8 +30,9 @@ window.addEventListener("load", function(event) {
     }
 
 
-    gsap.set(".d-b-sm, .x-block", {duration: 6});
+    gsap.set(".d-b-sm, .x-block", {duration: 3});
     gsap.set(".flex-season, .flex-text, .flex-year, .text-decription, .btn_description", {duration: 5});
+    gsap.set(".gallery .column img",  {duration: 10});
 
     
     animations[0].to(".d-b-sm", 0.5, {rotation: 360, ease:Back.easeOut.config(1.4)});
@@ -36,8 +40,11 @@ window.addEventListener("load", function(event) {
 
 
     animations[1].to(".flex-season, .flex-text, .flex-year, .text-decription, .btn_description", 2.0, {rotation: 360, ease:Back.easeOut.config(1.4)})
+    animations[1].from(".btn_description", 2.5, {scale:2});
 
+    animations[2].to(".gallery  img:nth-child(even)", 4.0, {rotation: 360, ease:Back.easeOut.config(1.4)})
 
+    
 
         // observer handler
     function animHandler(targets, observer) {
@@ -52,6 +59,9 @@ window.addEventListener("load", function(event) {
         }
     }
 
+    /* x-padding*/
+
+ 
 /*
 TweenMax.set(".dog", {yPercent:-50, xPercent:-100});
 TweenMax.set(".box, .hello, .message, #morphIt, #drawIt", {yPercent:-50, xPercent:-50});
