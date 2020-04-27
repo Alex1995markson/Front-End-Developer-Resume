@@ -224,3 +224,83 @@ presearch-listings {
     height: 100%;
     overflow: hidden;
 }
+/*info_advertising */
+.info_advertising {
+
+    h3 {
+
+    }
+    .phone {
+
+    }
+    .advertising_desc {
+
+    }
+
+    .button_advertising {
+        color:white;
+    }
+
+}
+
+/* news block*/
+.sliderT_block sliderT-block__big {
+    color: white;
+}
+/* sliderT_block */
+.container-sliderT {
+    // position: relative;
+}
+.container-sliderT {
+    min-height: 100%;
+    position: relative;
+}
+
+.sliderT-block__big {
+    // position: absolute;
+    height: 100vh;
+    background-color: rgb(228, 173, 24);
+    width: 100%;
+    
+}
+
+.sliderT-block__sml {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+}
+/* code for slider */
+.wrapper_container_sm {
+    //   position: relative;
+      background: #000;
+      text-align: center;
+      color:#bbb;
+      margin: 0;
+      padding: 0;
+}
+.container_slider-block-big {
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      overflow: hidden;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+}
+
+
+.new_block {
+/*add some styles */
+}
+.text-bottom {
+    bottom: 0;
+    left: 0;
+    span {
+        display: inline-block;
+        background-color: yellow;
+        padding: .3rem;
+    }
+}
