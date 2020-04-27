@@ -15,9 +15,10 @@
     2) I can't hook up lib jQuery throught NPM
     3) I choose images for website
     4) Didnt wrk downmenu
-    5) Make a botder for avatar 
+    5) Make a botder for avatar  +
     6) Hover effect didn't work
-    7) Create own rounded--> 
+    7) Create own rounded
+    8) Make pretty button search --> 
     <header class="header w-100">
         <nav class="navbar navbar-expand-lg ">
             <a class="navbar-brand" href="#">
@@ -39,7 +40,7 @@
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sell or Traded
                   </a>
-                  <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">INFINITI</a>
                     <a class="dropdown-item" href="#">BMW</a>
                     <div class="dropdown-divider"></div>
@@ -48,14 +49,21 @@
                 </li>
 
               </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              
+              <!-- need openening with JS <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
                 <span class=""></span>
-              </form>
-              <div class="d-inline-block my-2 my-lg-0">
+              </form> -->
+              <!-- <div class="d-inline-block my-2 my-lg-0">
                   <span class="account_header">
                     <i>AM</i>
                   </span>
+              </div> -->
+              <div class="d-inline-block my-2 my-lg-0">
+                  <div class="wrap_avatar"> 
+                    <img class="avatar" src="img/paul_walker.jpg">
+                    <div class="border-avatar"></div>
+                  </div>
               </div>
             </div>
           </nav>
@@ -64,32 +72,32 @@
     <div class="w-100 position-relative bg-light form-search">
         <!-- What is main-layout-->
             <div class="container ">
-                <div class="row ">
+                <div class="row pt-2">
                     <div class="col-12 col-lg-7">
                         <!-- Make a font with sass-->
-                        <h1 class="">FAIR WIND <br>
-                        <span class="d-none d-lg-block">Fast search auto</span></h1>
+                        <h1 class="">FAIR WIND<br>
+                        <span class="d-none d-lg-block">Fast search cars</span></h1>
                     </div>
                     <div class="col-12 col-lg-5 mt-3 mt-lg-2 order-2 mb-2 mb-lg-0 order-lg-1">
                         <div class="row">
                             <div class="col-6 pr-4 mt-1">
                                 <div class="text-muted">Our industry has </div>
-                                <p class="" style="line-height: 1.29;">
+                                <p class="">
                                    <a href="#" class="text-truncate">19000 Mini-Vans
                                 </a>  
                                 </p>
-                                <p class="" style="line-height: 1.29;">
+                                <p class="">
                                     <a href="#" class="text-truncate">21041 Sedan
                                  </a>  
                                  </p>
-                                 <p class="" style="line-height: 1.29;">
+                                 <p class="">
                                     <a href="#" class="text-truncate">1591 Supercar
                                  </a>  
                                  </p>
                             </div>
                             <div class="col-6 pr-3 mt-1">
                                 <div class="text-muted">We are the service that estimates fairly the issues with the car</div>
-                                <p><a href="#">Passport auto</a>, history of sales/rents, autoconfiguration cars</p>
+                                <p class="text-muted"><a href="#">Passport auto</a>, history of sales/rents, autoconfiguration cars</p>
                             </div>
                         </div>
                     </div>
@@ -104,25 +112,24 @@
             </div>
             <!-- need that block locates under small text-->
             <div class="container presearch-listings">
-
                     <div class=" mb-lg-2">
                         <p>
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-                                preventative maintenance
-                            </a>
-                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                common repairs
+                            <button class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                                Preventative maintenance
                             </button>
                             <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                transmission repair
+                                Common repairs
                             </button>
                             <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                electrical diagnostics
+                                Transmission repair
+                            </button>
+                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Electrical diagnostics
                             </button>
                           </p>
                           <!-- Change a size of text and distace between input and labels-->
                           <div class="collapse" id="collapseExample">
-                            <form class="form-inline">
+                            <form class="form-inline form_body">
                                 <div class="form-inline mb-2">
                                   <label for="staticEmail2">Price from</label>
                                   <input type="money" class="form-control" id="staticEmail2" value="Price from">
@@ -159,11 +166,11 @@
                     </div>
  
             </div>
-        </div>
+    </div>
       
         <!-- Need special style for wrapper each block
         1) inside div with col-12 delete bg-info-->
-    <article class="service_block ">    
+    <article class="service_block mb-4 ">    
         <div class="container ">
             <div class="row">
                 <div class="col-12 mb-3">
@@ -172,31 +179,31 @@
                     </h2>
                 </div>
                 <div class="col-12 col-lg-4 col-4 mb-4">
-                    <div class="bg-info service-img__invest">
+                    <div class="bg-info service-img__invest rounded">
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-sm btn-white"></a>
+                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-4 mb-4">
-                    <div class="bg-info service-img__painting">
+                    <div class="bg-info service-img__painting rounded">
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-sm btn-white"></a>
+                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-4 mb-4">
-                    <div class="bg-info service-img__engine">
+                    <div class="bg-info service-img__engine rounded">
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-sm btn-white"></a>
+                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 mb-2">
-                    <div class="bg-img-hero-center service-img__fullimg">
+                    <div class="bg-img-hero-center service-img__fullimg rounded">
                         <h2 class="w-60">Free subscribe</h2>
                         <p class="w-60 d-none d-md-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum non mollitia aliquam, ut maiores, quaerat aspernatur veritatis dicta 
                             porro quos ullam facere nesciunt expedita corrupti laborum.</p>
@@ -207,56 +214,128 @@
             </div>
         </div>  
     </article>      
-    
-    <div class="container">
+    <article class=""> 
+        <!-- fix this-->
+    <div class="container " style="margin-top:40px;">
         <div class="w-100 overflow-hidden">
             <!-- Do more prettier-->
             <div class="car-wrapper__slider h-100 position-relative">
                 <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <!-- make a card with auto-->
-                        <div class="card" style="width: 18em;">
-                            <div class="card_img__car">
-                                <img src="img/swipper_most_popolar_listing/asphalt-auto-automobile-brand.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            <a href="#" class="btn btn-primary">Testdrive</a>  
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card" style="width: 18em;">
-                            <div class="card_img__car">
-                                <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
-                            </div>
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            <a href="#" class="btn btn-primary">Testdrive</a>  
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- make a card with auto-->
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/asphalt-auto-automobile-brand.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
-                    </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/car-vehicle-technology-luxury-100656.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/red-ferrari-337909.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/vintage-car-against-blue-sky-327236.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/slide-1-1024x576.webp" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card_img__car">
+                                    <img src="img/swipper_most_popolar_listing/slide-2-1024x683.webp" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                </div>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
                 </div>
             </div>    
         </div>
     </div>
-
+</article>
+<!-- !!!!!!!!!!!!!!!!!!!!!-->
 
     <div class="container">
         <div class="row">
@@ -481,7 +560,7 @@
                         <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
                         <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
                         <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
+                        <a class=   "footer-tags__obj text-uppercase" href="#">Objects</a>
                         <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
                         <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
                     </div>
@@ -517,17 +596,16 @@
     <script>
         /*first slider */
         var swiper = new Swiper('.swiper-container', {
-          slidesPerView: 3,
+          slidesPerView: 1,
           spaceBetween: 30,
           pagination: {
-            el: '.swiper-pagination',
             clickable: true,
           },
         });
        
-      </script>
+    </script>
 
-      <script>
+    <script>
         /* second slider*/  
         var swiper = new Swiper('.container_slider-block-big', {
         pagination: {
@@ -539,11 +617,11 @@
             prevEl: '.swiper-button-prev',
         },
         });
-      </script>
+    </script>
       <!-- 
           third slider
       -->
-      <script>
+    <script>
         var swiper = new Swiper('.little_slider__container', {
           slidesPerView: 1,
           spaceBetween: 30,
@@ -553,6 +631,6 @@
             clickable: true,
           },
         });
-      </script>
+    </script>
 </body>
 </html>

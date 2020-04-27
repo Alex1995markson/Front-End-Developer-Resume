@@ -9880,6 +9880,10 @@ body {
   font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Francois One", sans-serif;
+}
+
 .navbar {
   background-color: #080e14;
   opacity: 0.9;
@@ -9890,6 +9894,8 @@ body {
 }
 
 .nav-link {
+  font-size: medium;
+  font-weight: 600;
   color: #d8dde6;
   text-transform: uppercase;
 }
@@ -9898,18 +9904,7 @@ body {
 }
 
 /*Don't work */
-.navbar-toggler-icon {
-  color: red !important;
-}
-
-/* make other input search*/
-/*
-install this font for a website
-font-family: 'Amiri', serif;
-font-family: 'Francois One', sans-serif;
-*/
-/* header -> navbar*/
-/* make avatar*/
+/* custom */
 .account_header {
   display: flex;
   align-items: center;
@@ -9925,29 +9920,113 @@ font-family: 'Francois One', sans-serif;
   vertical-align: middle;
 }
 
+/* make avatar with img*/
+/* предусмотреть что будет если поменять размермеры и сделать так чтобы нельзя было уходить за границы */
+.wrap_avatar {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.border-avatar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+  position: absolute;
+}
+
+/* make other input search*/
+.btn-primary {
+  background-color: #000000;
+  border: 1px solid #e7ba3c;
+}
+.btn-primary:hover {
+  background-color: #f8ac59;
+  border: 1px solid #e7ba3c;
+}
+
+/*
+install this font for a website
+font-family: 'Amiri', serif;
+font-family: 'Francois One', sans-serif;
+*/
+.rounded {
+  border-radius: 1em;
+}
+
 /* form-search*/
 .form-search {
   height: 90vh;
   background-image: url("../img/bg-41.webp");
   background-repeat: no-repeat;
   background-position: right center;
+  /* may be make a dividing number and name ?? */
+}
+.form-search p {
+  line-height: 1;
+}
+.form-search a {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+/* presearch-listings*/
+presearch-listings .form_body {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
 }
 
 /*"service_block */
-.service_block {
-  height: 100vh;
+.bg-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  padding: 0.4em;
+}
+.bg-info h2 {
+  align-self: flex-end;
+}
+.bg-info p {
+  align-self: flex-end;
+}
+.bg-info a {
+  align-self: flex-end;
 }
 
 .service-img__invest {
-  min-height: 340px;
+  min-height: 320px;
 }
 
 .service-img__painting {
-  min-height: 340px;
+  min-height: 320px;
 }
 
 .service-img__engine {
-  min-height: 340px;
+  min-height: 320px;
+}
+
+.service-img__fullimg {
+  min-height: 300px;
+  color: white;
+  text-align: center;
 }
 
 /* change soo long*/
@@ -9980,6 +10059,14 @@ font-family: 'Francois One', sans-serif;
 }
 
 /* swipper first */
+.car-wrapper__slider {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -9987,7 +10074,6 @@ font-family: 'Francois One', sans-serif;
 
 .swiper-slide {
   width: 18em !important;
-  height: 20em;
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -10006,23 +10092,15 @@ font-family: 'Francois One', sans-serif;
   align-items: center;
 }
 
-.car-wrapper__slider {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
 /* Think how to make the same size of all pictures */
 .card_img__car {
-  max-width: 100%;
+  width: 18rem;
   height: 250px;
 }
 .card_img__car img {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  width: 18rem;
+  height: 250px;
 }
 
 /* footer container */
