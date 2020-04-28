@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 header {
-    height: 100vh;
+    height: 1000px;
     background-image: url('../img/header-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ header .col-4 {
     padding: 0;
 }
 .article-text  {
+    min-height: 600px;
     overflow: hidden;
 }
 /* make fullsize for navbar */
@@ -289,3 +290,8 @@ footer {
     font-size: 18px;
     color: grey;
 } 
+.icon_social {
+    color: #fa311f;
+    font-size: 30px !important;
+    border-radius: 20%;
+}

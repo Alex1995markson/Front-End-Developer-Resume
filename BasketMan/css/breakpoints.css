@@ -1,5 +1,5 @@
 /*mobule first */
-@media all and (min-width: 300px) and (max-width: 576px) { 
+@media all and (min-width: 300px) and (max-width: 622px) { 
     /* header*/
     .tx-first {
         font-size: 18px;
@@ -46,7 +46,10 @@
         justify-content: center;
     }
     .basketman img {
-        height: 240px;
+        height: 200px;
+    }
+    .x-block .btn-orange {
+        display: none;
     }
     .subtitle {
         font-size: 15px;
@@ -146,7 +149,7 @@
     } 
     
  }
-@media all and (min-width: 578px) and (max-width: 768px) {
+@media all and (min-width: 623px) and (max-width: 768px) {
     .tx-first {
         font-size: 18px;
     }
@@ -296,5 +299,10 @@
     }
   }
 @media (min-width: 1200px) {
-
+    #text-more {
+        display: none;
+    }
+    .text-wrap {
+        display: none;
+    }
   }
