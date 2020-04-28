@@ -14,8 +14,6 @@
     1) Make a distance between some block
     2) I can't hook up lib jQuery throught NPM
     3) I choose images for website
-    4) Didnt wrk downmenu
-    5) Make a botder for avatar  +
     6) Hover effect didn't work
     7) Create own rounded
     8) Make pretty button search --> 
@@ -36,14 +34,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Used</a>
                 </li>
+                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sell or Traded
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu dropdown-menu-right " aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">INFINITI</a>
                     <a class="dropdown-item" href="#">BMW</a>
-                    <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">KIA</a>
                   </div>
                 </li>
@@ -69,20 +67,26 @@
           </nav>
     </header>
 
-    <div class="w-100 position-relative bg-light form-search">
+    <div class="w-100  bg-light form-search">
         <!-- What is main-layout-->
             <div class="container ">
-                <div class="row pt-2">
-                    <div class="col-12 col-lg-7">
+                <div class="row " style="padding-top: 70px;">
+                    <div class="col-12 col-lg-7 ">
                         <!-- Make a font with sass-->
-                        <h1 class="">FAIR WIND<br>
+                        <h1 class="position-relative header_form">FAIR WIND<br>
                         <span class="d-none d-lg-block">Fast search cars</span></h1>
                     </div>
                     <div class="col-12 col-lg-5 mt-3 mt-lg-2 order-2 mb-2 mb-lg-0 order-lg-1">
                         <div class="row">
                             <div class="col-6 pr-4 mt-1">
                                 <div class="text-muted">Our industry has </div>
-                                <p class="">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">19000 Mini-Vans</li>
+                                    <li class="list-group-item">21041 Sedan</li>
+                                    <li class="list-group-item">1591 Supercar</li>
+                                    
+                                  </ul>
+                                <!-- <p class="">
                                    <a href="#" class="text-truncate">19000 Mini-Vans
                                 </a>  
                                 </p>
@@ -93,7 +97,7 @@
                                  <p class="">
                                     <a href="#" class="text-truncate">1591 Supercar
                                  </a>  
-                                 </p>
+                                 </p> -->
                             </div>
                             <div class="col-6 pr-3 mt-1">
                                 <div class="text-muted">We are the service that estimates fairly the issues with the car</div>
@@ -120,28 +124,43 @@
                             <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                 Common repairs
                             </button>
-                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Transmission repair
+                            <button class="btn btn-primary position-relative" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Transmission repair<span class="position-absolute icon_little">
+                                    <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <title>Page 1 Copy 102x</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs></defs>
+                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Page-1-Copy-10" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#384773" fill="#FFFFFF">
+                                                <path d="M1.00811256,6.80977002 L1.91322332,6.65876287 C4.34704846,6.25328071 6.25328071,4.34704846 6.65876287,1.91415546 L6.80977002,1.00811256 C7.03348432,-0.336037519 8.96581657,-0.336037519 9.19046301,1.00811256 L9.34053802,1.91415546 C9.74695233,4.34704846 11.6531846,6.25328071 14.0860776,6.65876287 L14.9911883,6.80977002 C16.3362706,7.03348432 16.3362706,8.96581657 14.9911883,9.19046301 L14.0860776,9.34147016 C11.6531846,9.74695233 9.74695233,11.6531846 9.34053802,14.0860776 L9.19046301,14.9921205 C8.96581657,16.3362706 7.03348432,16.3362706 6.80977002,14.9921205 L6.65876287,14.0860776 C6.25328071,11.6531846 4.34704846,9.74695233 1.91322332,9.34147016 L1.00811256,9.19046301 C-0.336037519,8.96581657 -0.336037519,7.03348432 1.00811256,6.80977002 Z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
                             </button>
-                            <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Electrical diagnostics
+                            <button class="btn btn-primary position-relative" data-toggle="collapse" type="button" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Electrical diagnostics<span class="position-absolute icon_little">
+                                    <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <title>Page 1 Copy 102x</title>
+                                        <desc>Created with Sketch.</desc>
+                                        <defs></defs>
+                                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Page-1-Copy-10" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#384773" fill="#FFFFFF">
+                                                <path d="M1.00811256,6.80977002 L1.91322332,6.65876287 C4.34704846,6.25328071 6.25328071,4.34704846 6.65876287,1.91415546 L6.80977002,1.00811256 C7.03348432,-0.336037519 8.96581657,-0.336037519 9.19046301,1.00811256 L9.34053802,1.91415546 C9.74695233,4.34704846 11.6531846,6.25328071 14.0860776,6.65876287 L14.9911883,6.80977002 C16.3362706,7.03348432 16.3362706,8.96581657 14.9911883,9.19046301 L14.0860776,9.34147016 C11.6531846,9.74695233 9.74695233,11.6531846 9.34053802,14.0860776 L9.19046301,14.9921205 C8.96581657,16.3362706 7.03348432,16.3362706 6.80977002,14.9921205 L6.65876287,14.0860776 C6.25328071,11.6531846 4.34704846,9.74695233 1.91322332,9.34147016 L1.00811256,9.19046301 C-0.336037519,8.96581657 -0.336037519,7.03348432 1.00811256,6.80977002 Z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
                             </button>
                           </p>
                           <!-- Change a size of text and distace between input and labels-->
-                          <div class="collapse" id="collapseExample">
-                            <form class="form-inline form_body">
-                                <div class="form-inline mb-2">
-                                  <label for="staticEmail2">Price from</label>
-                                  <input type="money" class="form-control" id="staticEmail2" value="Price from">
-                                </div>
-                                <div class="form-group mx-sm-3 mb-2">
-                                  <label for="inputPassword2" class="sr-only"></label>
-                                  <input type="password" class="form-control" id="inputPassword2" placeholder="Price to">
-                                </div>
-                                <div class="form-group mx-sm-3 mb-2">
-                                    <label for="inputPassword3" class="sr-only"></label>
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Waiting time from">
-                                </div>
+                          <div class="collapse position-relative" id="collapseExample">
+                            <form class="form-inline  form_body">
+                                <div class="d-flex justify-content-around ">
+                                    <input type="money" class="form-control" id="staticEmail2" value="Price from">
+                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Price to" >
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Waiting time from" >
+                                </div> 
                                 <div class="form-group mx-sm-3 mb-2">
                                     <label for="inputPassword4" class="sr-only"></label>
                                     <input type="password" class="form-control" id="inputPassword4" placeholder="Waiting to">
@@ -173,7 +192,7 @@
     <article class="service_block mb-4 ">    
         <div class="container ">
             <div class="row">
-                <div class="col-12 mb-3">
+                <div class="col-12 my-3">
                     <h2>
                         Services and Facilities
                     </h2>
@@ -183,7 +202,7 @@
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
+                        <a class="btn btn-primary text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-4 mb-4">
@@ -191,7 +210,7 @@
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
+                        <a class="btn btn-primary text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-4 mb-4">
@@ -199,7 +218,7 @@
                         <h2 class="h4 mt-lg-4">Inside car </h2>
                         <p>Lorem ipsum dolor sit.<br>
                         Lorem, ipsum dolor.</p>
-                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Click</a>
+                        <a class="btn btn-primary text-white d-none d-md-inline-block mb-7">Click</a>
                     </div>
                 </div>
                 <div class="col-12 mb-2">
@@ -207,7 +226,7 @@
                         <h2 class="w-60">Free subscribe</h2>
                         <p class="w-60 d-none d-md-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum non mollitia aliquam, ut maiores, quaerat aspernatur veritatis dicta 
                             porro quos ullam facere nesciunt expedita corrupti laborum.</p>
-                        <a class="btn btn-dark text-white d-none d-md-inline-block mb-7">Active</a>    
+                        <a class="btn btn-primary text-white d-none d-md-inline-block mb-7">Active</a>    
                         <a class="btn btn-danger text-black d-none d-md-inline-block mb-7  ">NonActive</a>    
                         </div>
                 </div>
@@ -219,7 +238,7 @@
     <div class="container " style="margin-top:40px; margin-bottom: 40px;">
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex">
-                <a class="d-block mr-4">Top</a>
+                <h2 class="d-block my-3">Top</h2>
                 
             </div>
         </div>
@@ -236,6 +255,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -249,6 +269,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -262,6 +283,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -275,6 +297,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -288,6 +311,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -301,6 +325,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -314,6 +339,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -327,6 +353,7 @@
                                 </div>
                                 <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">$27000</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                                 <a href="#" class="btn btn-primary">Testdrive</a>  
@@ -364,14 +391,14 @@
 </article>
         
     <!-- news about cars-->
-    <div class="w-100">
+    <div class="w-100 news_blocks">
         <div class="container" style="margin-top:40px; margin-bottom: 40px;">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="d-flex">
-                    <a class="d-block mr-4">News</a>
-                    <a class="d-block mr-4">Fabebook</a>
-                    <a class="d-block mr-4">Twitter</a>
-                    <a class="d-block mr-4">Instagram</a>
+                    <a class="d-block h2 mr-4">News</a>
+                    <a class="d-block h2 mr-4">Fabebook</a>
+                    <a class="d-block h2 mr-4">Twitter</a>
+                    <a class="d-block h2 mr-4">Instagram</a>
                 </div>
             </div>
             <!-- Need find a row--adaptive -->
@@ -383,11 +410,14 @@
 
                         </div>
                         <h5 class="pt-1">Title for news</h5>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p class="text-muted pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! 
                             Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
-                            Sequi, atque vitae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum deserunt ab ipsa?</p>
-                        <div class="small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">grg efgr</div>
+                            Sequi, atque vitae. Lorem ipsum dolor.wefew ewfew efewf efew fewff efew  fewefew </p>
+                        <div class="small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                            <span>speed</span>
+                            <span>volume</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -400,7 +430,10 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
                             Sequi, atque vitae.</p>
-                        <div class=" small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">grg efgr</div>
+                        <div class=" small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                            <span>speed</span>
+                            <span>volume</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -429,7 +462,10 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
                             Sequi, atque vitae.</p>
-                        <div class="small text-muted position-absolute  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">grg efgr</div>
+                        <div class="small text-muted position-absolute  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                            <span>speed</span>
+                            <span>volume</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -566,68 +602,71 @@
                 
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-scrollbar"></div>
+                    <!-- <div class="swiper-scrollbar"></div> -->
 
                 </div>
             </div>    
         </div>
     </div>
-    <div class="w-100 " style="margin-top: 40px;">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982113.3335457655!2d-69.81000761917203!3d-15.941509076722957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d9b22f6af7c75%3A0xf682724d4df71dc!2sLake%20Titicaca!5e0!3m2!1sen!2sru!4v1587984183400!5m2!1sen!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
+    
+    
 
     <!-- footer -->
     <!-- set color for with block-->
-    <footer class="container-fluid w-100 ">
-        <div class="row">
-            <div class="col-sm-12 col-lg-4 mb-lg-0">
-                <div class="d-flex flex-column">
-                    <h5 class="">About</h5>
-                    <p class=""> Worky is the leader of providing architect services and implementing ideas! 
-                        We are here to meet your demand and resolve architecture issues the most beneficial 
-                        way for you. Our skilled experts are able to resolve complex and unusual cases in 
-                        the shortest time
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 mb-lg-0">
-                <div class="d-flex flex-column flex-wrap">
-                    <h5 class="">Tag</h5>
-                    <div class="d-flex flex-row flex-wrap">
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class=   "footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                        <a class="footer-tags__obj text-uppercase" href="#">Objects</a>
-                    </div>
-                   
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-4 mb-lg-0">
-                <div class="d-flex flex-column">
-                    <h5 class="">RECENT COMMENTS</h5>
-                    <div class="footer-comment">
-                        <span class="footer-comment__author">Admin</span>
-                        <span class="footer-comment__date"> July 4, 2020</span>
-                        <p class="footer-comment__article d-block">
-                            SUSTAINABLE CAR DESIGN
+
+    <footer class="w-100 bg-footer" style="margin-top: 40px;">
+        <div class="map p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982113.3335457655!2d-69.81000761917203!3d-15.941509076722957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d9b22f6af7c75%3A0xf682724d4df71dc!2sLake%20Titicaca!5e0!3m2!1sen!2sru!4v1587984183400!5m2!1sen!2sru" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 mb-lg-0">
+                    <div class="d-flex flex-column">
+                        <h5 class="">About</h5>
+                        <p class=""> Worky is the leader of providing architect services and implementing ideas! 
+                            We are here to meet your demand and resolve architecture issues the most beneficial 
+                            way for you. Our skilled experts are able to resolve complex and unusual cases in 
+                            the shortest time
                         </p>
                     </div>
-                
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-lg-0">
+                    <div class="d-flex flex-column flex-wrap">
+                        <h5 class="">Tag</h5>
+                        <div class="d-flex flex-row flex-wrap">
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                            <a class="footer-tags__obj bg-dark text-uppercase" href="#">Objects</a>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 mb-lg-0">
+                    <div class="d-flex flex-column ">
+                        <h5 class="">RECENT COMMENTS</h5>
+                        <div class="footer-comment rounded">
+                            <span class="footer-comment__author">Admin</span>
+                            <span class="footer-comment__date"> July 4, 2020</span>
+                            <p class="footer-comment__article d-block">
+                                SUSTAINABLE CAR DESIGN
+                            </p>
+                        </div>
+                    
+                    </div>
                 </div>
             </div>
-        </div>
-        
+    </div>
     </footer>
-    <div class="w-100 bg-dark">
+    <!-- <div class="w-100 bg-dark">
         <div class=" ">
             <p>LOL</p>
         </div>
-    </div>
+    </div> -->
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -672,7 +711,7 @@
             disableOnInteraction: false,
         },
         pagination: {
-            el: '.swiper-pagination',
+            // el: '.swiper-pagination',
             clickable: true,
         }
     });

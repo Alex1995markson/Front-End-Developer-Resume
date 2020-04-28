@@ -3,26 +3,14 @@
  @import "modules/_variables.scss";
  @import "modules/_navbar.scss";
  @import "modules/_button.scss";
+ @import "modules/_list.scss";
 
-
-
-/*
-install this font for a website
-font-family: 'Amiri', serif;
-font-family: 'Francois One', sans-serif;
-*/
 .rounded {
     border-radius: 1em;
 }
-
-
-
-
-
 /* form-search*/
 .form-search {
     height: 90vh;
-
     background-image: url('../img/bg-41.webp');
     background-repeat: no-repeat;
     background-position: right center;
@@ -54,10 +42,12 @@ presearch-listings {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    color: white;
+     color: white;
     padding: .4em;
     h2 {
         align-self:flex-end;
+        color: #e7ba3c;
+
     }
     p {
         align-self:flex-end;
@@ -81,7 +71,9 @@ presearch-listings {
     min-height: 300px;
     color: white;
     text-align: center;
-
+    h2 {
+        color: #e7ba3c;
+    }
 }
 
 /* change soo long*/
@@ -303,4 +295,27 @@ presearch-listings {
         background-color: yellow;
         padding: .3rem;
     }
+}
+.icon_little {
+    top: -.5rem;
+    
+}
+/*form_body */
+.form_body {
+    max-width: 100%;
+    padding: 1em;
+    background-color: rgba(177, 176, 176, 0.7);
+
+    input {
+         width: 27% !important;
+    }
+}
+/* footer */
+.bg-footer {
+    background-color: #e7ba3c;
+}
+.footer-comment {
+    padding: .4rem .5rem;
+    color: #e7ba3c;
+    background-color: black;
 }

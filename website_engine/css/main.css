@@ -9884,6 +9884,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Francois One", sans-serif;
 }
 
+.news_blocks a {
+  font-family: "Francois One", sans-serif;
+}
+
 .navbar {
   background-color: #080e14;
   opacity: 0.9;
@@ -9961,13 +9965,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-info {
   background-color: #eb8b0f;
+  /* убрать от сюда */
+}
+.btn-info h2 {
+  color: #e7ba3c;
 }
 
-/*
-install this font for a website
-font-family: 'Amiri', serif;
-font-family: 'Francois One', sans-serif;
-*/
+.list-group {
+  opacity: 0.6;
+}
+
+.list-group-item {
+  opacity: 1;
+  /* поменять цвет не работает*/
+}
+
 .rounded {
   border-radius: 1em;
 }
@@ -10007,6 +10019,7 @@ presearch-listings .form_body {
 }
 .bg-info h2 {
   align-self: flex-end;
+  color: #e7ba3c;
 }
 .bg-info p {
   align-self: flex-end;
@@ -10031,6 +10044,9 @@ presearch-listings .form_body {
   min-height: 300px;
   color: white;
   text-align: center;
+}
+.service-img__fullimg h2 {
+  color: #e7ba3c;
 }
 
 /* change soo long*/
@@ -10231,6 +10247,31 @@ presearch-listings .form_body {
   display: inline-block;
   background-color: yellow;
   padding: 0.3rem;
+}
+
+.icon_little {
+  top: -0.5rem;
+}
+
+/*form_body */
+.form_body {
+  max-width: 100%;
+  padding: 1em;
+  background-color: rgba(177, 176, 176, 0.7);
+}
+.form_body input {
+  width: 27% !important;
+}
+
+/* footer */
+.bg-footer {
+  background-color: #e7ba3c;
+}
+
+.footer-comment {
+  padding: 0.4rem 0.5rem;
+  color: #e7ba3c;
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
