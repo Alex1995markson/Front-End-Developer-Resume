@@ -9908,6 +9908,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Don't work */
+.navbar-toggler-icon {
+  background-image: url(../../icon/car.svg);
+}
+
 /* custom */
 .account_header {
   display: flex;
@@ -9975,11 +9979,13 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.6;
 }
 
-.list-group-item {
-  opacity: 1;
-  /* поменять цвет не работает*/
+.card .card-price {
+  font-size: 1.2em;
 }
-
+.card .card-text {
+  color: #6c757d !important;
+  font-size: 0.9em;
+}
 .rounded {
   border-radius: 1em;
 }

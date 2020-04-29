@@ -4,10 +4,12 @@
  @import "modules/_navbar.scss";
  @import "modules/_button.scss";
  @import "modules/_list.scss";
+ @import "modules/_card.scss";
 
 .rounded {
     border-radius: 1em;
 }
+
 /* form-search*/
 .form-search {
     height: 90vh;

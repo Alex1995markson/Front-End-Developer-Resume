@@ -12,13 +12,10 @@
 <body>
     <!-- TODO 
     1) Make a distance between some block
-    2) I can't hook up lib jQuery throught NPM
-    3) I choose images for website
     6) Hover effect didn't work
-    7) Create own rounded
     8) Make pretty button search --> 
     <header class="header w-100">
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
                 <img src="/img/invert-logo.webp" class="d-inline-block align-top">
             </a>
@@ -44,6 +41,11 @@
                     <a class="dropdown-item" href="#">BMW</a>
                     <a class="dropdown-item" href="#">KIA</a>
                   </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link turn-left" href="#">
+                        <i class="fas fa-search" data-fa-transform="rotate-90"></i>
+                    </a>
                 </li>
 
               </ul>
@@ -224,7 +226,7 @@
                 <div class="col-12 mb-2">
                     <div class="bg-img-hero-center service-img__fullimg rounded">
                         <h2 class="w-60">Free subscribe</h2>
-                        <p class="w-60 d-none d-md-inline-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum non mollitia aliquam, ut maiores, quaerat aspernatur veritatis dicta 
+                        <p class="w-50 d-none d-md-block mx-auto ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum non mollitia aliquam, ut maiores, quaerat aspernatur veritatis dicta 
                             porro quos ullam facere nesciunt expedita corrupti laborum.</p>
                         <a class="btn btn-primary text-white d-none d-md-inline-block mb-7">Active</a>    
                         <a class="btn btn-danger text-black d-none d-md-inline-block mb-7  ">NonActive</a>    
@@ -239,7 +241,6 @@
         <div class="d-flex justify-content-between align-items-center">
             <div class="d-flex">
                 <h2 class="d-block my-3">Top</h2>
-                
             </div>
         </div>
         <div class="w-100 overflow-hidden">
@@ -254,12 +255,15 @@
                                     <img src="img/swipper_most_popolar_listing/asphalt-auto-automobile-brand.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
+                                </div>  
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -268,12 +272,15 @@
                                     <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
+                                </div> 
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -368,7 +375,6 @@
         </div>
     </div>
 </article>
-<!-- !!!!!!!!!!!!!!!!!!!!!-->
 <article class="info_advertising">
     <div class="container ">
         <div class="row">
@@ -402,9 +408,9 @@
                 </div>
             </div>
             <!-- Need find a row--adaptive -->
-            <div class="row">
+            <div class="row ">
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="new_block h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                    <div class="d-flex flex-column h-100 p-2 p-md-3 border rounded ">
                         <!-- Add style in main.css-->
                         <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/auto12.jpg');">
 
@@ -414,14 +420,14 @@
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! 
                             Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
                             Sequi, atque vitae. Lorem ipsum dolor.wefew ewfew efewf efew fewff efew  fewefew </p>
-                        <div class="small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                        <div class="small text-muted mt-auto  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
                             <span>speed</span>
                             <span>volume</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                    <div class="d-flex flex-column h-100 p-2 p-md-3 border rounded ">
                         <!-- Add style in main.css-->
                         <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/painting_bmw.jpg');">
 
@@ -430,14 +436,14 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
                             Sequi, atque vitae.</p>
-                        <div class=" small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                        <div class=" small text-muted mt-auto  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
                             <span>speed</span>
                             <span>volume</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                    <div class=" d-flex flex-column h-100  p-2 p-md-3 border rounded ">
                         <!-- Add style in main.css-->
                         <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/auto1.jpg');">
 
@@ -446,23 +452,29 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
                             Sequi, atque vitae.</p>
-                        <div class="small text-muted position-absolute pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+
+                        <div class="small text-muted mt-auto  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
                             <span>speed</span>
                             <span>volume</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
-                    <div class="h-100 d-block p-2 p-md-3 border rounded overflow-hidden position-relative">
+                    <div class="d-flex flex-column  p-2 p-md-3 border rounded ">
                         <!-- Add style in main.css-->
-                        <div class="w-100 " style="height: 140px;background-size: cover; background-position: center; background-image: url('img/auto2.jpg');">
+                        <div class="w-100" style="height: 140px;background-size: cover; background-position: center; background-image: url('img/auto2.jpg');">
 
                         </div>
                         <h5 class="pt-1">Title for news</h5>
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Pariatur odit consectetur accusamus ipsum delectus nobis, numquam laudantium! Rem, minima consequatur voluptates tempore optio, quos iusto, nesciunt quas enim ab inventore explicabo!
-                            Sequi, atque vitae.</p>
-                        <div class="small text-muted position-absolute  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
+                            Sequi, atque vitae. qfqw wfew wefewj ewjoewij ewfwejo ewfew ewfew ewfew ewfew ewfew ewfew ewfew 
+                            efwfewjo ewjewoj ewfjewoj ewfewo wefew wefew ewfk wefkew wefew ewfew wefew wefew we wefew ewfk wefkew
+                            w ewfew ewfew ewfew 
+                            efwfewjo ewjewoj ewfjewoj ewfewo wefew wefew ewfk wefkew wefew ewfew wefew wefew we wefew ewfk wefkew
+                        </p>
+
+                        <div class="small text-muted mt-auto  pb-2 pb-md-3 pl-2 pl-md-3 text-bottom">
                             <span>speed</span>
                             <span>volume</span>
                         </div>
