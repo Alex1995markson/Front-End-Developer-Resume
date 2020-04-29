@@ -290,8 +290,19 @@ footer {
     font-size: 18px;
     color: grey;
 } 
+.footer-block_icon  {
+    color: #fa311f;
+    font-size: 26px;
+    padding-right: 4px;
+}
 .icon_social {
     color: #fa311f;
     font-size: 30px !important;
     border-radius: 20%;
+}
+.last_block {
+    background-color: #fa311f;
+}
+.email-input {
+    border-radius: 10%;
 }
