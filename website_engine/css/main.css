@@ -9985,6 +9985,8 @@ h1, h2, h3, h4, h5, h6 {
 .card .card-text {
   color: #6c757d !important;
   font-size: 0.9em;
+  height: 6rem;
+  overflow: hidden;
 }
 .rounded {
   border-radius: 1em;
@@ -10009,10 +10011,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* presearch-listings*/
-presearch-listings .form_body {
+.presearch-listings #collapseExample {
+  background-image: url("../img/egine.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.presearch-listings #collapseExample .form_body {
   width: 100%;
   height: 100%;
-  background-color: grey;
+  background-color: rgba(165, 165, 165, 0.7);
+}
+.presearch-listings .address_input {
+  min-width: 100% !important;
+  position: relative !important;
+}
+.presearch-listings .address-icon {
+  position: absolute !important;
+  left: 90%;
+  top: 72%;
 }
 
 /*"service_block */
@@ -10099,6 +10115,7 @@ presearch-listings .form_body {
 }
 
 .swiper-slide {
+  max-height: 530px !important;
   width: 18em !important;
   text-align: center;
   font-size: 18px;
@@ -10120,7 +10137,7 @@ presearch-listings .form_body {
 
 /* Think how to make the same size of all pictures */
 .card_img__car {
-  width: 18rem;
+  width: 18em !important;
   height: 250px;
 }
 .card_img__car img {
@@ -10139,7 +10156,6 @@ presearch-listings .form_body {
 /* sliderT_block */
 .container-sliderT {
   min-height: 100%;
-  position: relative;
 }
 
 .sliderT-block__big {
@@ -10157,24 +10173,10 @@ presearch-listings .form_body {
 }
 
 /* code for slider */
+/* переписать стили для контейнера swiper */
 .wrapper_container_sm {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.container_slider-block-big {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  overflow: hidden;
-  left: 50%;
-  top: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
+  width: 100%;
+  height: 100%;
 }
 
 /* little slider container*/

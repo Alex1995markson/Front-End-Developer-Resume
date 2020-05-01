@@ -11,9 +11,13 @@
 </head>
 <body>
     <!-- TODO 
-    1) Make a distance between some block
-    6) Hover effect didn't work
-    8) Make pretty button search --> 
+    Little TODO 
+        1) in menu last element, hover-effect didn't work
+        2) second block, position-absolute didn't work on input address    
+    Big TODO
+        1) Add slider in yellow/black block (swiper or writer on slider)
+        2) Fix the size of font (New, Fabebook, Twitter, Intstagram)
+    --> 
     <header class="header w-100">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">
@@ -155,28 +159,55 @@
                                 </span>
                             </button>
                           </p>
-                          <!-- Change a size of text and distace between input and labels-->
                           <div class="collapse position-relative" id="collapseExample">
-                            <form class="form-inline  form_body">
-                                <div class="d-flex justify-content-around ">
+                            <form class="form_body">
+                                <div class="d-flex justify-content-around mt-2">
                                     <input type="money" class="form-control" id="staticEmail2" value="Price from">
                                     <input type="password" class="form-control" id="inputPassword2" placeholder="Price to" >
                                     <input type="password" class="form-control" id="inputPassword3" placeholder="Waiting time from" >
                                 </div> 
-                                <div class="form-group mx-sm-3 mb-2">
-                                    <label for="inputPassword4" class="sr-only"></label>
-                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Waiting to">
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control" id="staticEmail4" value="Price from">
+                                    <input type="password" class="form-control" id="inputPassword5" placeholder="Price to" >
+                                    <input type="password" class="form-control" id="inputPassword6" placeholder="Waiting time from" >
+                                </div> 
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control" id="staticEmail7" value="Price from">
+                                    <input type="password" class="form-control" id="inputPassword8" placeholder="Price to" >
+                                    <input type="password" class="form-control" id="inputPassword9" placeholder="Waiting time from" >
                                 </div>
-                                <!-- long input -->
-                                <div class="form-group mx-sm-3 mb-2 position-relative">
-                                    <label for="inputPassword5" class="sr-only">Address</label>
-                                    <input type="password" class="form-control " id="inputPassword5" placeholder="Address">
-                                    <!-- Transfer style
-                                    be nice (add style for it)-->
-                                    <span class="position-absolute" style="left: 90%; "><i class="fas fa-thumbtack"></i></span>
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control"  value="Price from">
+                                    <input type="password" class="form-control" placeholder="Price to" >
+                                    <input type="password" class="form-control"  placeholder="Waiting time from" >
                                 </div>
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control"  value="Price from">
+                                    <input type="password" class="form-control" placeholder="Price to" >
+                                    <input type="password" class="form-control"  placeholder="Waiting time from" >
+                                </div>
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control"  value="Price from">
+                                    <input type="password" class="form-control" placeholder="Price to" >
+                                    <input type="password" class="form-control"  placeholder="Waiting time from" >
+                                </div>
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control"  value="Price from">
+                                    <input type="password" class="form-control" placeholder="Price to" >
+                                    <input type="password" class="form-control"  placeholder="Waiting time from" >
+                                </div>
+                                <div class="d-flex justify-content-around mt-2">
+                                    <input type="money" class="form-control"  value="Price from">
+                                    <input type="password" class="form-control" placeholder="Price to" >
+                                    <input type="password" class="form-control"  placeholder="Waiting time from" >
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input type="password" class="form-control address_input " id="exampleInputPassword1" placeholder="Address">
+                                    <span class=" address-icon"><i class="fas fa-thumbtack"></i></span>
+                                </div>
+                              
+                                 <button type="submit" class="mt-5 d-block btn btn-primary mb-2">Confirm identity</button> -->
 
-                                <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
                               </form>
                           </div>
                           <div class="collapse" id="collapseExample1">
@@ -189,8 +220,6 @@
             </div>
     </div>
       
-        <!-- Need special style for wrapper each block
-        1) inside div with col-12 delete bg-info-->
     <article class="service_block mb-4 ">    
         <div class="container ">
             <div class="row">
@@ -250,14 +279,16 @@
                         <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <!-- make a card with auto-->
-                            <div class="card" style="width: 18rem;">
+                            <div class=" card">
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/asphalt-auto-automobile-brand.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">audi a6</h5>
                                     <h5 class="card-price">$27000</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content.
+                                    </p>
                                 </div>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary ">Buy</a>
@@ -267,7 +298,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class=" card">
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
                                 </div>
@@ -284,86 +315,116 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" >
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/car-vehicle-automobile-automotive-119435.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content.
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" >
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/car-vehicle-technology-luxury-100656.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content.
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" >
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/red-ferrari-337909.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum cupiditate nisi dignissimos sed est asperiores! Consequuntur magnam hic voluptates perferendis ab? Neque minima commodi quidem porro illo id rerum.
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" >
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/vintage-car-against-blue-sky-327236.jpg" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content.
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" >
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/slide-1-1024x576.webp" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content.
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card">
                                 <div class="card_img__car">
                                     <img src="img/swipper_most_popolar_listing/slide-2-1024x683.webp" class="card-img-top" alt="...">
                                 </div>
                                 <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h5 class="card-title">$27000</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Testdrive</a>  
+                                    <h5 class="card-title">audi a6</h5>
+                                    <h5 class="card-price">$27000</h5>
+                                    <p class="card-text"> Some quick example text to build on the card title and make 
+                                      up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In minima voluptatem libero quas dignissimos. Enim impedit architecto quasi ducimus libero minus culpa eligendi iure. Quam reprehenderit repellendus suscipit eum libero!
+                                    </p>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary ">Buy</a>
+                                    <a href="#" class="btn btn-primary">Arenda</a>
+                                    <a href="#" class="btn btn-primary ">Testdrive</a>
                                 </div>
                             </div>
                         </div>
@@ -487,41 +548,33 @@
 
 
 
-    <div class="sliderT_block " >
-        <div class="w-100 ">
-            
+    <div class="sliderT_block">
+        <div class="w-100">
             <div class="d-flex flex-row justify-content-center align-content-center container-sliderT">
                 
                 <div class="sliderT-block__big rounded position-relative">
                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex flex-column p-3">
+                        <div class="d-flex flex-column p-3 ">
                             <h3>Company work with us</h3>
                             <p class="sliderT_block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore at neque in nam ullam tempora, 
                                 fuga voluptatibus voluptas corrupti ex dignissimos nemo explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia beatae consequuntur numquam ea adipisci velit quibusdam animi odio. Atque similique corrupti aspernatur quibusdam, ducimus eveniet fuga quae illum tempora laboriosam.</p>
+                                    
                         </div>
+                        <!-- <div class="position-relative h-100 overflow-hidden">    
+                            <div class="wrapper_container_sm"> 
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">Slide 1</div>
+                                    <div class="swiper-slide">Slide 2</div>
+                                    <div class="swiper-slide">Slide 3</div>
+                                    <div class="swiper-slide">Slide 4</div>
+                                    <div class="swiper-slide">Slide 5</div>
+                                </div>         
+                                <div class="swiper-pagination"></div>   
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>    
+                            </div>
+                        </div>  -->
                     </div>
-                    <!-- <span> latest news</span>
-                    <h3 class="text-upppercase">top insights on the <br>
-                        CURRENT INDUSTRY
-                    </h3> -->
-                    <!-- need locate -->
-                    <div class="wrapper_container_sm">
-                        <div class="container_slider-block-big">
-                            <div class="swiper-wrapper ">
-                                <div class="swiper-slide ">Slide 1</div>
-                                <div class="swiper-slide ">Slide 2</div>
-                                <div class="swiper-slide ">Slide 3</div>
-                                <div class="swiper-slide ">Slide 4</div>
-                                <div class="swiper-slide ">Slide 5</div>
-         
-                            </div>        
-                            <!-- pagination-->
-                            <div class="swiper-pagination"></div>
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>    
-                        </div>     
-                        </div>
                 </div>
         
                 <div class="sliderT-block__sml rounded align-self-center">
@@ -532,7 +585,7 @@
                             <label for="inputEmail4">Email</label>
                             <input type="email" class="form-control" id="inputEmail4">
                           </div>
-                          <div class="form-group col-md-6">
+                   <!--       <div class="form-group col-md-6">
                             <label for="inputPassword4">Password</label>
                             <input type="password" class="form-control" id="inputPassword4">
                           </div>
@@ -568,7 +621,7 @@
                             <label class="form-check-label" for="gridCheck">
                               Check me out
                             </label>
-                          </div>
+                          </div> -->
                         </div>
                         <button type="submit" class="btn btn-primary">Sign in</button>
                       </form>
@@ -578,6 +631,9 @@
         </div>
     </div>
     <!-- little slider with brand of cars -->
+
+
+
     <div class="little_slider container-fluid" style="margin-top: 40px; margin-bottom: 40px;">
         <div class="w-100 position-relative little_slider_wrapper">
             <div class="d-flex">           
@@ -608,13 +664,10 @@
                         <div class="swiper-slide">
                             <img src="img/volvo.jpg" height="250px" width="250px" alt="Jaguar Brand">
                         </div>
-                        <div class="swiper-slide">
-                            <img src="img/jaguar.png" height="250px" width="250px" alt="Jaguar Brand">
-                        </div>
+             
                 
                     </div>
                     <div class="swiper-pagination"></div>
-                    <!-- <div class="swiper-scrollbar"></div> -->
 
                 </div>
             </div>    
@@ -698,15 +751,17 @@
 
     <script>
         /* second slider*/  
-        var swiper = new Swiper('.container_slider-block-big', {
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'progressbar',
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+        var swiper = new Swiper('.wrapper_container_sm', {
+            centeredSlides: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'progressbar',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
       <!-- 
@@ -715,15 +770,17 @@
     <script>
 
      var swiper = new Swiper('.little_slider__container', {
-        spaceBetween: 10,
-        initialSlide: 8,
-        centeredSlides: true,
+        spaceBetween: 100,
+        slidesPerView:4,
+        // centeredSlides: true,
         autoplay: {
-            delay: 2500,
+            delay: 4500,
             disableOnInteraction: false,
+            reverseDirection: true,
+            stopOnLastSlide: true
         },
         pagination: {
-            // el: '.swiper-pagination',
+             el: '.swiper-pagination',
             clickable: true,
         }
     });

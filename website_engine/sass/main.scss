@@ -9,14 +9,12 @@
 .rounded {
     border-radius: 1em;
 }
-
 /* form-search*/
 .form-search {
     height: 90vh;
     background-image: url('../img/bg-41.webp');
     background-repeat: no-repeat;
     background-position: right center;
-    // z-index: -1;
     p {
         line-height: 1;
     }
@@ -29,16 +27,29 @@
     }
 }
 /* presearch-listings*/
-presearch-listings {
-    .form_body {
-        width: 100%;
-        height: 100%;
-        background-color: grey;
+.presearch-listings {
+    #collapseExample {
+        background-image: url('../img/egine.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        .form_body {
+            width: 100%;
+            height: 100%;   
+             background-color: rgba($color: #a5a5a5, $alpha: 0.7);
+        }
+    }
+    .address_input {
+        min-width: 100% !important;
+        position: relative !important;
+    }
+    .address-icon {
+        position: absolute !important;
+        left: 90%;
+        top: 72%;
     }
 }
 /*"service_block */
 .service_block {
-    // height: 100vh;
 }
 .bg-info {
     display: flex;
@@ -49,11 +60,9 @@ presearch-listings {
     h2 {
         align-self:flex-end;
         color: #e7ba3c;
-
     }
     p {
         align-self:flex-end;
-
     }
     a {
         align-self: flex-end;
@@ -61,7 +70,6 @@ presearch-listings {
 }
 .service-img__invest {
     min-height: 320px;
-     
 }
 .service-img__painting {
     min-height: 320px;
@@ -77,7 +85,6 @@ presearch-listings {
         color: #e7ba3c;
     }
 }
-
 /* change soo long*/
 .service-img__invest {
     background-image: url('../img/black-lamborghini-vehicle.jpg');
@@ -122,6 +129,7 @@ presearch-listings {
     height: 100%;
   }
 .swiper-slide {
+    max-height: 530px !important;
     width: 18em !important;
     // height: ;
     text-align: center;
@@ -141,19 +149,15 @@ presearch-listings {
     -webkit-align-items: center;
     align-items: center;
 }
-
 /* Think how to make the same size of all pictures */
 .card_img__car {
-    width: 18rem;
+    width: 18em !important; 
     height: 250px;
-    
     img {
         object-fit: cover;
         width: 18rem;
         height: 250px;
-    }
-
-    
+    }   
 }
 /* footer container */
 .footer-tags__obj {
@@ -163,21 +167,14 @@ presearch-listings {
 }
 /* sliderT_block */
 .container-sliderT {
-    // position: relative;
-}
-.container-sliderT {
     min-height: 100%;
-    position: relative;
 }
-
 .sliderT-block__big {
-    // position: absolute;
     height: 1000px;
     background-color: #333;
     width: 100%;
     
 }
-
 .sliderT-block__sml {
     height: 500px;
     width: 100%;
@@ -186,24 +183,11 @@ presearch-listings {
     left: 50%;
 }
 /* code for slider */
+/* переписать стили для контейнера swiper */
 .wrapper_container_sm {
-    // position: relative;
-    background: #fff;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color:#000;
-      margin: 0;
-      padding: 0;
-}
-.container_slider-block-big {
-      width: 300px;
-      height: 300px;
-      position: absolute;
-      overflow: hidden;
-      left: 50%;
-      top: 50%;
-      margin-left: -150px;
-      margin-top: -150px;
+    width: 100%;
+    height: 100%;
+     
 }
 
 /* little slider container*/ 
