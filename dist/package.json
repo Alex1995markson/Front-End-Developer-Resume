@@ -1,0 +1,26 @@
+{
+  "name": "basketman",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-End-Developer-Resume/dist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-End-Developer-Resume/dist/issues"
+  },
+  "homepage": "https://alex1995markson.github.io/Front-End-Developer-Resume/BasketMan/",
+  "scripts": {
+
+    "deploy": "gh-pages -d dist"
+  }
+}
