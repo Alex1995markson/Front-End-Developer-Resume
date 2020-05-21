@@ -1,0 +1,186 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../sass/modules/_font.scss";
+@import "../sass/modules/_typography.scss";
+
+$whiteBlue:#5ec6ff;
+
+*, body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.line {
+    background-color:  $whiteBlue;
+}
+
+#main-header {
+    min-height: 300px;
+
+   .display-4 {
+       color: $whiteBlue;
+   }
+   .bg-foto{
+        height: 100%;
+        background-image: url('../img/lu1lPD9r5zI.jpg');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    .bg-black {
+        color: $whiteBlue;
+        background-color: #000;
+    }
+    .port-item {
+        width: 30%;
+
+        &:nth-child(odd) {
+            background-color: black;
+        }
+        &:nth-child(even) {
+            background-color: #454545;
+        }
+        i {
+            color: $whiteBlue;
+        }
+        span {
+            color: $whiteBlue;
+        }
+    }
+
+    @media(min-width: 1199px) {
+        .port-item {
+            padding: 3em 2.5em !important;
+        }
+    }
+}
+
+.group-icon {
+    
+    border: 1px solid $whiteBlue;
+
+    i {
+        font-size: 2.5em;
+        padding: 2em 1.4em;
+    }
+}
+
+.collapse  { 
+    .card {
+        border-radius: 0;
+    }
+    .card-opa {
+        margin: 0 auto;
+        max-width: 18em;
+        position: absolute;
+        z-index: 20;
+        color: white;
+    }
+
+    .wrap-text {
+        margin: 0 auto;
+        max-width: 21em;
+        text-align: center;
+    }
+    .banner::before {
+        content: "";
+        height: 100%;
+        width: 50%;
+        display: block;
+        margin: 0;
+        background-size: auto 100%;
+        background-image: url('../img/intro-scene-left.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        z-index: 0;
+    }
+    .banner::after {
+        content: "";
+        height: 100%;
+        width: 30%;
+        margin: 0;
+        display: block;
+        background-size: auto 100%;
+        background-image: url('../img/intro-scene-right.svg');
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0;
+        bottom: -1px;
+        z-index: 1;
+    }
+    .banner {
+        position: relative;
+    }
+    .banner  {
+        & > * {
+            z-index: 10;
+            position: relative;
+        }
+    }
+    .banner {
+        padding: 20vh 0;
+        background-color: lighten($color: #252222, $amount: .9);
+        text-align: center;
+    }
+}
+#home {
+    .gradute_ {
+        .instution {
+            padding: 10px 20px;
+            border: 1px solid $whiteBlue;
+            
+        }
+    
+    }
+}
+
+#resume {
+    .card-img-top {
+        padding-top: 1em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .bg-evol {
+        padding: 20vh 0;
+        background-image: url('../img/human-evolution-vector-74195.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: $whiteBlue;
+    }
+    .card-link-company {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#contact {
+    background-image: url('../img/aeaabdb481a116585fd870067998c7fe.jpg');
+    background-size: cover;
+    form {
+
+        outline: .6em solid $whiteBlue;
+        box-shadow: 0 0 0 .5em $whiteBlue;
+        border-radius: 0.6em;
+        padding: 1em 1em 1em;
+        color: black;
+        background: white;
+        opacity: 0.8;
+        background-clip: padding-box;
+
+        .form-group {
+            border-color: $whiteBlue;
+        }
+    }
+}
+#main-footer {
+    .main_link {
+        a {
+            font-size: 1.4rem;
+            text-decoration: none;
+        }
+        i {
+            font-size: 1.7rem;
+            color: $whiteBlue;
+        }
+    }
+}

@@ -1,26 +1,16 @@
 {
-  "name": "basketman",
+  "name": "selfportfolio",
   "version": "1.0.0",
-  "description": "website",
-  "main": "main.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "gh-pages": "^2.2.0"
-  },
-  "devDependencies": {},
-  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Front-End-Developer-Resume/dist.git"
+  "description": "website with my description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Front-End-Developer-Resume/dist/issues"
-  },
-  "homepage": "https://alex1995markson.github.io/Front-End-Developer-Resume/BasketMan/",
-  "scripts": {
-
-    "deploy": "gh-pages -d dist"
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "devicon": "^2.2.0",
+    "sass": "^1.26.5"
   }
 }
