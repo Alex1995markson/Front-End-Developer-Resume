@@ -1,0 +1,309 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+/* wrapper for html*/
+.bg-black {
+    background-color: black;
+}
+header {
+    height: 1000px;
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif; 
+}
+header .col-4 {
+    padding: 0;
+}
+.article-text  {
+    min-height: 600px;
+    overflow: hidden;
+}
+/* make fullsize for navbar */
+.without-padding {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    padding: 0 30px;
+}
+.navbar-nav {
+    padding-top: 60px;
+}
+.nav-item {
+    margin-left: 10px;
+}
+.navbar-toggler-icon {
+    color: #fa311f;
+}
+.nav-link {
+    font-size: 20px;
+    color: #fa311f;
+}
+/* end */
+
+.brand {
+    min-height: 210px;
+    padding-top: 60px;
+}
+.basketman {
+    overflow: hidden;
+    min-height: 630px;
+    font-family: 'Poppins', sans-serif; 
+}
+/* basketman */
+.subtitle {
+    color: #fa311f;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.x-block {
+    top: 20%;
+    max-width: 530px;
+}
+.main-title {
+    font-size: 36px;
+    line-height: 1.333;
+    padding-bottom: 30px;
+}
+.text-decription-bas {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #4c4d4f;
+    padding-bottom: 30px;
+}
+.text-long {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #4c4d4f;
+    padding-bottom: 30px;
+}
+/*short-description */
+.short-description {
+    min-height: 400px;
+    background-image: url('../img/graf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-season {
+    font-size: 50px;
+     padding: 0px 30px; 
+}
+.flex-year {
+    font-size: 140px;
+}
+.flex-text {
+    font-size: 50px;
+    padding: 0px 30px;
+    line-height: 1;
+}
+.text-decription {
+    font-size: 90px;
+}
+.evening_event {
+    min-height: 400px;
+    /* margin-bottom: 40px; */
+    /* background-image: url(); */
+}
+.recently_event {
+    max-height: 540px;
+    width: 100%;
+    padding-bottom: 30px;
+    background-image: url('../img/photo-of-basketball.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+} 
+.text-card-item {
+    width: 150px;
+
+}
+.img-gal {
+    height: 400px;
+    width: 100%;
+    background-image: url('../img/basketball-court-2273381.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.box-text {
+    left: -500px;
+}
+.small-block {
+    left: 0; 
+    bottom: 0;
+}
+.img-small {
+    height: 250px;
+    width: 290px;
+    background-image: url('../img/sports-court-illustration-917503.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+/* navbar */
+.navbar-toggler {
+    border: 0;
+}
+.navbar-toggler-icon {
+    border-color: rgb(255,102,203);
+}
+/* text*/
+.tx-mid {
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 0.9;
+}
+.article-text {
+    padding-bottom: 50px;
+}
+.left-padding {
+    padding-left: 50px;
+    overflow-wrap: break-word;
+}
+.tx-big {
+    line-height: 0.9;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.x-big {
+    font-size: 100px;
+}
+.x-padding {
+    padding-top: 50px;
+}
+.title-item {
+    color: #4c4d4f;
+    font-size: 18px;
+    font-weight: bold;
+}
+.desription-item {
+    font-size: 12px;
+    color: #4c4d4f;
+    font-weight: lighter;
+}
+/*color  */
+.text-orange {
+    color:#fa311f;
+}
+.btn-orange {
+    background-color:#fa311f;
+    color: #fff;
+}
+.text-white {
+    color: #fff;
+}
+/* list social icon */
+.align-social-icon {
+    padding-top: 60px;
+    font-size: 24px;
+}
+/* change this */
+ul li {
+    margin: 0;
+    list-style: none;
+}
+li {
+    padding-bottom: 70px;
+}
+.name_bask_play  {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/*gallery */
+.gallery {
+    padding-bottom: 40px;
+}
+.row-x {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+  /* Create four equal columns that sits next to each other */
+.column {
+   -ms-flex: 25%; /* IE10 */
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.column img {
+   margin-top: 8px;
+   vertical-align: middle;
+   width: 100%;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+.event-text-title {
+    font-size: 22px;
+    padding-top: 5px;
+}
+.event-text-subtitle {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.sport-lite {
+    color: #a02b21;
+}
+.desc-event {
+    font-size: 16px;
+    color: grey;
+}
+/* footer*/
+footer {
+    background-color: black;
+    color:white;
+}
+.foo-wrap {
+    padding-top: 30px;
+    /*  padd     */
+}
+.foo-head {
+    /* font-size: 34px;
+    padding: 10px 10px; */
+}
+.foo-descr {
+    font-size: 18px;
+    color: grey;
+} 
+.footer-block_icon  {
+    color: #fa311f;
+    font-size: 26px;
+    padding-right: 4px;
+}
+.icon_social {
+    color: #fa311f;
+    font-size: 30px !important;
+    border-radius: 20%;
+}
+.last_block {
+    background-color: #fa311f;
+}
+.email-input {
+    border-radius: 10%;
+}
