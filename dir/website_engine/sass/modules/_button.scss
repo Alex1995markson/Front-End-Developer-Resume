@@ -1,0 +1,22 @@
+.btn-primary {
+    background-color: $blue;
+    border: 1px solid #e7ba3c;
+
+    &:hover {
+        background-color: $yellow;
+        border: 1px solid #e7ba3c;
+
+    }
+}
+.btn-info {
+    background-color: $yellowBL;
+    /* убрать от сюда */
+    h2 {
+        color: #e7ba3c;
+    }
+    &:hover {
+        background-color: #000;
+        border: 1px solid $yellowBL;
+
+    }
+}

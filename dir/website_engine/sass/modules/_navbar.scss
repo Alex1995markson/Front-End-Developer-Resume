@@ -1,0 +1,65 @@
+.navbar {
+    background-color: $nav-bg;
+    opacity: 0.9;
+}
+.navbar-brand {
+  /* some styles*/  
+}
+.nav-link {
+    font-size: medium;
+    font-weight: 600;
+    color: $nav-text-color;
+    text-transform: uppercase;
+    @include hover-focus() {
+        color: $navbar-light-hover-color;
+      }
+}
+/*Don't work */
+.navbar-toggler-icon {
+  background-image: url(../../icon/car.svg);
+}
+
+
+/* custom */
+.account_header {
+  display: flex;
+  align-items: center;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-color: $navbar-light-hover-color;
+}
+.account_header > i {
+  text-align: center;
+  padding: 0.4em;
+  vertical-align: middle;
+}
+/* make avatar with img*/
+/* предусмотреть что будет если поменять размермеры и сделать так чтобы нельзя было уходить за границы */
+.wrap_avatar {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.avatar{
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.border-avatar{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);  
+}
+
+.dropdown-menu {
+  position: absolute;
+  
+}
+
+/* make other input search*/

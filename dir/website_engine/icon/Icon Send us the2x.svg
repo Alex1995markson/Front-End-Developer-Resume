@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="127px" height="98px" viewBox="0 0 127 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Send us the2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45.5761536,19 L122.962179,19 C125.192206,19 127,20.798457 127,22.9989555 L127,94.0010445 C127,96.2096066 125.193235,98 122.963382,98 L23.036618,98 C20.8072554,98 19,96.2044331 19,94.0055936 L19,46.2734375" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="108" height="79" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="37" y="43" width="28" height="29" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="29" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Send-us-the">
+            <g>
+                <use id="Rectangle-2-Copy" stroke="#384773" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <circle id="Oval-3-Copy-8" fill="#7ED321" cx="20" cy="20" r="20"></circle>
+                <text id="2" font-family="PFSquareSansPro-Medium, PF Square Sans Pro" font-size="18" font-weight="400" letter-spacing="0.600000024" fill="#FFFFFF">
+                    <tspan x="15" y="26">2</tspan>
+                </text>
+                <path d="M74,48 L109.056765,48" id="Path-16-Copy-2" stroke="#384773" stroke-width="2"></path>
+                <path d="M74,57 L109.056765,57" id="Path-16-Copy-4" stroke="#384773" stroke-width="2"></path>
+                <path d="M74,66 L88.5968192,66" id="Path-16-Copy-5" stroke="#384773" stroke-width="2"></path>
+                <use id="Rectangle-8-Copy" stroke="#384773" mask="url(#mask-4)" stroke-width="4" fill="#EDEEF2" xlink:href="#path-3"></use>
+                <ellipse id="Oval-3" stroke="#384773" stroke-width="2" cx="50.9462947" cy="54" rx="4.94629466" ry="5"></ellipse>
+                <polyline id="Path-18" stroke="#384773" stroke-width="2" points="48.3333333 62 44.0666667 64.2454843 43 66.4909686 59 66.4909686 57.9333333 64.2454843 53.4844333 62"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
