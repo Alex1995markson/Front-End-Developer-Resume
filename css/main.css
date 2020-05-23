@@ -9954,6 +9954,10 @@ h6 {
   background-color: #5ec6ff;
 }
 
+.bg-Wblue {
+  background-color: #5ec6ff;
+}
+
 #main-header {
   min-height: 300px;
 }
@@ -10041,7 +10045,7 @@ h6 {
   position: absolute;
   right: 0;
   bottom: -1px;
-  z-index: 1;
+  z-index: 0;
 }
 .collapse .banner {
   position: relative;
@@ -10049,6 +10053,7 @@ h6 {
 .collapse .banner > * {
   z-index: 10;
   position: relative;
+  text-align: center;
 }
 .collapse .banner {
   padding: 20vh 0;
