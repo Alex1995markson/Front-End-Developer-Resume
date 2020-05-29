@@ -4,25 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- new -->
-    <script src="https://raw.githubusercontent.com/darsain/sly/master/dist/sly.min.js"></script>
+    <!-- Add slider file css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <!-- end-->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-
-
-
-
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-    <!-- old-->
-   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="paralax/parallax.js-1.5.0/parallax.js"></script>
-    <link rel="stylesheet" href="main.css">
-   <link rel="stylesheet" href="custom.css"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 <body>
     <div class="header">
@@ -90,9 +77,7 @@
                        <span><i class="fas fa-search"></i></span>
                       </form>
                     </div>
-                </nav>  
-                
-                
+                </nav>   
             </div>
             
     </div> 
@@ -112,30 +97,44 @@
             </div>
           </div>
     </article>
-    <div class="w-50 mx-auto">
-      <div id="options-type" class="glide slider">
-        <div data-glide-el="track" class="slider__track glide__track">
-          <ul class="slider__slides glide__slides">
-            <li class=" slider__frame glide__slide">
-              <img src="img/tiny6_170x229_crop_top.webp">
-            </li>
-            <li class="slider__frame glide__slide">
-              <img src="img/tiny3_170x229_crop_top.webp">
-            </li>
-            <li class="slider__frame glide__slide">
-              <img src="img/tiny6_170x229_crop_top.webp">
-            </li>
-            <li class="slider__frame glide__slide">
-              <img src="img/tiny4_170x229_crop_top.webp">
-            </li>
-            <li class="slider__frame glide__slide">
-              <img src="img/tiny6_170x229_crop_top.webp">
-            </li>
-            <li class="slider__frame glide__slide">
-              <img src="img/tiny5_170x229_crop_top.webp">
-            </li>
-          </ul>
+    <div class="mt-3 mx-auto w-75">
+      <div class="glider-contain">
+        <div class="glider">
+          <div>
+            <img src="img/tiny2_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny2_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny3_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny3_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny4_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny4_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny5_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny5_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny6_170x229_crop_top.webp">
+          </div>
+          <div>
+            <img src="img/tiny6_170x229_crop_top.webp">
+          </div>
         </div>
+      
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
       </div>
     </div>   
     <div class="container-fluid">    
@@ -352,19 +351,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
 
-    <script>
-      var glide = new Glide('.glide', {
-        type: 'carousel',
-        autoplay: 0,
-        animationDuration: 600,
-        animationTimingFunc: 'linear',
-        perView: 1,
-        peek: 300,
-        focusAt: 0
-      });
-      glide.mount()
-    </script>
+    <script src="gliderJS.js"></script>
+
 </body>
 </html>

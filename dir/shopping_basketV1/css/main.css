@@ -9969,5 +9969,8 @@ h3 {
     flex-direction: column !important;
   }
 }
+.glider {
+  overflow: hidden;
+}
 
 /*# sourceMappingURL=main.css.map */
