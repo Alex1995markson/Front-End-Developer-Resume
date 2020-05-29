@@ -9969,8 +9969,31 @@ h3 {
     flex-direction: column !important;
   }
 }
-.glider {
+.glider-contain .glider {
   overflow: hidden;
+}
+.glider-contain .glider1 .wrap_item_slider {
+  height: auto !important;
+  width: 557px !important;
+}
+
+.border-container__slider {
+  border: 10px solid;
+  border-image: conic-gradient(#beb6b6, #9e9e96, #bbc2bb, #474747, #282829, #252525, black) 1;
+}
+
+.dots .glider-dot {
+  background-color: #949494;
+}
+.dots .active {
+  background-color: black;
+}
+
+.dots1 .glider-dot {
+  background-color: #949494;
+}
+.dots1 .active {
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

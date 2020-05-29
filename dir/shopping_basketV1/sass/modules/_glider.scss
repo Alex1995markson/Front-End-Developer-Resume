@@ -1,3 +1,33 @@
-.glider {
-    overflow: hidden;
+.glider-contain {
+    .glider {
+        overflow: hidden;
+    }
+    .glider1 {
+        .wrap_item_slider {
+            height: auto !important; 
+            width: 557px !important;
+        }
+    }
+}
+.border-container__slider {
+    border: 10px solid;
+    border-image: conic-gradient(rgb(190, 182, 182), rgb(158, 158, 150), rgb(187, 194, 187), rgb(71, 71, 71), rgb(40, 40, 41), rgb(37, 37, 37), black) 1;
+
+}
+.dots {
+    .glider-dot {
+        background-color: rgb(148, 148, 148);
+    }
+    .active {
+        background-color: black;
+    }
+}
+// fix this block because repeat
+.dots1 {
+    .glider-dot {
+        background-color: rgb(148, 148, 148);
+    }
+    .active {
+        background-color: black;
+    }
 }
