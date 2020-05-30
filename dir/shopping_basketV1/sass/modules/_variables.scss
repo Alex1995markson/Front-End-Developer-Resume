@@ -1,6 +1,6 @@
-$navy: #007ACE;       // Primary color
+$navy: grey;       // Primary color
 $dark-gray: #c2c2c2;  // Default color
-$blue: #000000;       // Success color
+$black: #000000;       // Success color
 $lazur: #23c6c8;      // Info color
 $yellow: #f8ac59;     // Warning color
 $red: #ED5565;        // Danger color
@@ -40,4 +40,5 @@ $nav-bg: rgb(8, 14, 20);
 $nav-text-color: #d8dde6;
 $navbar-light-hover-color: #e5953f;
 // 
-
+//linear gradient
+$button_gradient: linear-gradient(#cacaca, #8f8f8f); 
