@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-</head>
+  </head>
 <body>
     <div class="header">
             <div class="w-100">
@@ -141,8 +141,6 @@
     </div>   
     <div class="container-fluid">    
       <div class="row mt-5" style="color: black;">
-
-
           <div class="col-3 d-flex justify-content-center">
               <div class="card " style="width: 17rem; border: 0;">
                   <img class="card-img-top" style="border: 1px solid rgba(0,0,0,0.72);" src="img/adidas_chicago_bulls_derrick_rose_replica_basketball_jersey_02_270x341_crop_top.png" alt="Card image cap">
@@ -201,12 +199,34 @@
           </div>
       </div>
   </div> 
+  <div class="parallax_eff">
+    <div class="container_scene">
+      <div class="row mx-auto">
+        <div class="col-6">
+          <div id="scene" class="w-100 d-flex flex-column justify-content-start">
+            <div class="items1" data-depth="0.2"><img src="img/png_parallax/trainer-sprite-1.png"></div>
+            <div class="items2" data-depth="0.6"><img src="img/png_parallax/trainer-sprite-2.png"></div>
+            <div class="items3" data-depth="0.8"><img src="img/png_parallax/trainer-sprite-3.png" alt=""></div>
+          </div>
+      </div>
+      <div class="col-6">
+        <div id="scene1" class="w-100 d-flex flex-column justify-content-end">
+          <div class="items4" data-depth="0.1"><img src="img/png_parallax/trainer-sprite-4.png"></div>
+          <div class="items5" data-depth="0.4"><img src="img/png_parallax/trainer-sprite-5.png"></div>
+          <div class="items6" data-depth="0.7"><img src="img/png_parallax/trainer-sprite-6.png" alt=""></div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
   <div class="container-fluid">
     <div class="row mt-5" style="color: black;">
         <div class="col-6 d-flex justify-content-around">
             <div class="card" style="width:50rem; border: 0;">
-                <img class="card-img-top" src="img/webp/other/9b2e37e8-78f3-42bb-b31d-b0cf629c9627.webp" alt="Card image cap" height="500px">
-                <div class="card-body">
+                <div class="" style="max-height: 700px;">
+                  <img class="card-img-top" src="img/webp/other/9b2e37e8-78f3-42bb-b31d-b0cf629c9627.webp" alt="Card image cap" style="max-height: 700px; width: 100%;">
+                </div>  
+                <div class="card-body text-center">
                     <span class="card-text">extra 20% off</span>
                     <a class="card-title">Lebron</a>
                 </div>
@@ -214,8 +234,10 @@
         </div>
         <div class="col-6 d-flex justify-content-center">
             <div class="card" style="width:50rem; border: 0;">
-                <img class="card-img-top" src="img/webp/other/1320fbc2-dc8f-452c-ac32-0a2d5d6f2567.webp" alt="Card image cap" height="500px">
-                <div class="card-body">
+                <div class="" style="max-height: 700px;">
+                  <img class="card-img-top" src="img/webp/other/1320fbc2-dc8f-452c-ac32-0a2d5d6f2567.webp" alt="Card image cap" style="max-height: 700px; width: 100%;">
+                </div>
+                <div class="card-body text-center">
                     <span class="card-text">extra 20% off</span>
                     <a class="card-title">Lebron</a>
                 </div>
@@ -259,8 +281,8 @@
   <footer class="container-fluid">
     <div class="w-100">
         <div class="row d-flex color-header mot-5" style="background-color: black; color:#7e7e7e"> 
-            <div class="col-2 mt-2 d-flex d-md-none justify-content-start">
-                <ul class="nav flex-column d-md-none">
+            <div class="col-2 mt-2 d-flex justify-content-start">
+                <ul class="nav flex-column">
                     <li class="nav-item">
                     <a class="nav-link active" href="#">Categories</a>
                     </li>
@@ -287,8 +309,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-2 mt-2 d-flex d-md-none justify-content-start">
-                <ul class="nav flex-column d-md-none">
+            <div class="col-2 mt-2 d-flex justify-content-start">
+                <ul class="nav flex-column">
                     <li class="nav-item">
                     <a class="nav-link active" href="#">Information</a>
                     </li>
@@ -316,7 +338,7 @@
                 </ul>
             </div>
             <div class="col-2 mt-2 d-flex justify-content-start">
-                <ul class="nav flex-column d-md-none">
+                <ul class="nav flex-column">
                     <li class="nav-item">
                     <a class="nav-link active" href="#">Account</a>
                     </li>
@@ -343,7 +365,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-3 mt-2 d-flex d-md-none justify-content-center">
+            <div class="col-3 mt-2 d-flex  justify-content-center">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                     <a class="nav-link active" href="#">New letter</a>
@@ -356,7 +378,7 @@
                             <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                            <button type="submit" class="btn-primary btn">Subscribe</button>
                         </form>
                     </li>
                     
@@ -378,9 +400,18 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
     <script src="gliderJS.js"></script>
     <script src="script.js"></script>
+    <script>
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene);
+
+      var scene1 = document.getElementById('scene1');
+      var parallaxInstance = new Parallax(scene1);
+    </script>
+
 
 </body>
 </html>
