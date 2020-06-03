@@ -1,6 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../sass/modules/_font.scss";
 @import "../sass/modules/_typography.scss";
+@import "../sass/modules/_mixin.scss";
+@import "../sass/modules/_media.scss";
 
 $whiteBlue:#5ec6ff;
 
@@ -73,66 +75,44 @@ $whiteBlue:#5ec6ff;
     .card {
         border-radius: 0;
     }
-    .card-opa {
-        margin: 0 auto;
-        max-width: 18em;
-        position: absolute;
-        z-index: 20;
-        color: white;
-    }
+    
 
     .wrap-text {
         margin: 0 auto;
         max-width: 21em;
         text-align: center;
     }
-    .banner::before {
-        content: "";
-        height: 100%;
-        width: 50%;
-        display: block;
-        margin: 0;
-        background-size: auto 100%;
-        background-image: url('../img/intro-scene-left.svg');
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        z-index: 0;
-    }
-    .banner::after {
-        content: "";
-        height: 100%;
-        width: 30%;
-        margin: 0;
-        display: block;
-        background-size: auto 100%;
-        background-image: url('../img/intro-scene-right.svg');
-        background-repeat: no-repeat;
-        position: absolute;
-        right: 0;
-        bottom: -1px;
-        z-index: 0;
-    }
-    .banner {
-        position: relative;
-    }
-    .banner  {
-        & > * {
-            z-index: 10;
-            position: relative;
 
-            text-align: center;
-            // top: 50%;
-            // left: 50%;
-            // transform: translate(50%, 50%);
+    .banner  {
+        .left_svg {
+            height: 290px;
+            width: 45%;
+            margin: 0;
+            padding-bottom: -10px;
+            background-image: url('../img/intro-scene-left.svg');
+            background-position: left 40px;
+            background-size: center center;
+            background-repeat: no-repeat;
+        }
+        .right_svg {
+            height: 290px;
+            width: 45%;
+            margin: 0;
+            padding-bottom: -10px;
+            background-image: url('../img/intro-scene-right.svg');
+            background-position: right bottom;
+            background-size: center center;
+            background-repeat: no-repeat;
+        }
+        .card-opa {
+            font-size: black !important;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 999;
         }
     }
-    .banner {
-        padding: 20vh 0;
-        background-color: lighten($color: #252222, $amount: .9);
-        text-align: center;
-    }
+
 }
 #home {
     .gradute_ {

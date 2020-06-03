@@ -1,0 +1,15 @@
+@media (max-width: 660px) {
+    .right_svg {
+        visibility: hidden;
+    }
+    .banner {
+        background-image: url('../img/intro-scene-left.svg');
+        background-position: left 40px;
+        background-size: center center;
+        background-repeat: no-repeat;
+    }
+    .left_svg {
+        visibility: hidden;
+
+    }
+  }
