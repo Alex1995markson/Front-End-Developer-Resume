@@ -1,0 +1,44 @@
+@import "modules/variables.less";
+@import "modules/typography.less";
+@import "modules/mixins.less";
+
+
+
+#features {
+    // width: 100%;
+    background-color: black;
+    padding: 1.45em;
+    text-align: center;
+    & img {
+        margin-bottom: 20px
+    }
+    & .text {
+        .flex-center(row);
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 950px;
+
+        & > div {
+            width: 25%;
+            font-weight: bold;
+            font-size: 20px;
+        }    
+        & > div {
+                position: relative;
+        }
+        
+        & .first {
+            right: 39px;
+        }
+        & .second {
+            right: 10px;
+        }
+        & .third {
+            left: 15px;
+        }
+        & .fourth {
+            left: 51px;
+        }
+        
+    }
+}

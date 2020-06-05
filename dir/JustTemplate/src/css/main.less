@@ -4,11 +4,21 @@
 
 // Надо придумать как сбросить стили
 html,body {
+    padding: 0;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: @font-color;
 }
 
 .view-port {
     width: 1200px;
-    .center-g;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+ 
 }

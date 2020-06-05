@@ -10,6 +10,15 @@ const browserSync = require('browser-sync').create();
 const cssFile = [
     // './node_modules/normalize.css/normalize.css',
     './src/css/main.less',
+    './src/css/nav.less',
+    './src/css/button.less',
+    './src/css/header.less',
+    './src/css/features.less',
+    './src/css/advantage.less',
+    './src/css/solutions.less',
+    './src/css/estimate.less',
+    './src/css/steps.less',
+    './src/css/footer.less'
     // './src/css/other.css'
 ];
 const jsFile = [

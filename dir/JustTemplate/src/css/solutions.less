@@ -1,0 +1,109 @@
+@import "modules/variables.less";
+@import "modules/typography.less";
+@import "modules/mixins.less";
+
+#solutions {
+    background-color: black;
+    padding: 1.45em;
+    & h1 {
+        font-size: 2.85em;
+        margin-bottom: 40px;
+        letter-spacing: 2px
+
+    }
+    & .row {
+        .flex-center(row);
+        justify-content: space-around;
+        margin: 0 auto;
+
+        & .tile {
+            position: relative;
+            width: 25%;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: yellow;
+            & .betseller {
+                position: relative;
+                display: flex;
+                justify-content: center;
+             
+                & > div {
+                    position: absolute;
+                    background-color: red;
+                }
+                 & .left {
+                    width: 40px;
+                    height: 30px;
+                    top: -20px;
+                    background-color: blue;
+                    transform: rotate(45deg);
+                    left: 36px;
+                    top: -17px;
+
+
+                 }
+                & .text_under {
+                    position: absolute;
+                    top: -20px;
+                    padding: 6px 30px 0;
+                    font-size: 13px;
+                     }
+                    
+     
+                    & .right {
+                        width: 40px;
+                        height: 30px;
+                        top: -20px;
+                        background-color: blue;
+                        transform: rotate(45deg);
+                        right: 36px;
+                        top: -17px;
+                    }
+            }
+            & .header {
+                padding: 30px 0;
+                & h3 {
+                    font-weight: normal;
+                    font-size: 30px;
+                }
+            }
+            & .main {
+                position: relative;
+                padding: 0 15px;
+                margin-bottom: 10px;
+                height: 200px;
+                background-color: #fff;
+                color: black;
+
+                
+                
+                & ul {
+                    list-style: none;
+                    list-style-image: url('../../img/checkbox.png');
+                    padding: 20px 0 0 30px;
+                    & li {
+
+                        & span {
+                            padding-left: 10px;
+                            font-weight: bold;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                & .cost {
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    font-size: 2em;
+                    bottom: 10px;
+                    right: 5px;
+                }
+            }
+            & .footer {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
