@@ -1,51 +1,51 @@
 ***Здесь будет представлено описание проектов, используемые технологии и инструменты.***
 ---
 
-# BasketMen.
+# [BasketMan](https://alex1995markson.github.io/Front-End-Developer-Resume/dir/BasketMan/index.html "Website BasketMan")
 
-HTML5, CSS3, Bootstrap 4, GreenSock, JQuiery.
+> HTML5, CSS3, Bootstrap 4, GreenSock, JQuiery.
 
-Что я хочу получить от этого
-  1. Сформировать базу: 
-    1. Как быстро построить верстку используя Boootstrap;
-    2. Техники верстки;
-    3. Затронуть многие правила HTML и CSS. 
-  2. Писать структурированные свойства СSS.
-  3. Научиться использовать GreenSock.
+>> Что я хочу получить от этого
+>>  1. Сформировать базу: 
+>>    1. Как быстро построить верстку используя Boootstrap;
+>>    2. Техники верстки;
+>>    3. Затронуть многие правила HTML и CSS. 
+>>  2. Писать структурированные свойства СSS.
+>>  3. Научиться использовать GreenSock.
 
-В дальшейшем 
+>>В дальшейшем 
 
-  1. Исправить ошибки и сократить количество кода HTML И СSS.
-  2. Добавить API allsportsapi.com
+>>  1. Исправить ошибки и сократить количество кода HTML И СSS.
+>>  2. Добавить API allsportsapi.com
   
-Окончательный срок **13.04.2020**
+> Окончательный срок **13.04.2020**
 
 ---
 
-# Engine. 
+# [Engine](https://https://alex1995markson.github.io/Front-End-Developer-Resume/dir/website_engine/index.html "Website Engine")
 
-HTML5\CSS3, Bootstrap 4, SASS, JQuiery, дополнительная библиотека Swiper(slider.js)
+> HTML5\CSS3, Bootstrap 4, SASS, JQuiery, дополнительная библиотека Swiper(slider.js)
 
- 1. Структурированная верстка
- 2. Сокращения времени на написания CSS кода посредством предпроцессора SASS
- 3. Использования vh, vw, vmin, vmax, rem, em (понять как применять)
- 4. Создать кастомизированный шаблон (Boootstrap\SASS)
- 5. Создать несколько слайдером с помощью Swiper
+>> 1. Структурированная верстка
+>> 2. Сокращения времени на написания CSS кода посредством предпроцессора SASS
+>> 3. Использования vh, vw, vmin, vmax, rem, em (понять как применять)
+>> 4. Создать кастомизированный шаблон (Boootstrap\SASS)
+>> 5. Создать несколько слайдером с помощью Swiper
 
-Окончательный срок **20.04.2020**
+>Окончательный срок **20.04.2020**
     
 ---
 
-# Basket shopping
+# [Basket shopping](https://alex1995markson.github.io/Front-End-Developer-Resume/dir/shopping_basketV1/index.html "Website Basket shopping")
 
-HTML5\CSS3, Bootstrap 4, SASS, JQuiery, Anime.js, Glider.js, Javascript
+> HTML5\CSS3, Bootstrap 4, SASS, JQuiery, Anime.js, Glider.js, Javascript
 
-1. Структурированная верста
-2. Сокращения времени на написания CSS кода посредством препроцессора SASS, использования mixin и переменных
-3. Создать кастомизированный шаблон (Boootstrap\SASS)
-4. Научиться работать с Anime.js, Glider.js
+>>1. Структурированная верста
+>> 2. Сокращения времени на написания CSS кода посредством препроцессора SASS, использования mixin и переменных
+>> 3. Создать кастомизированный шаблон (Boootstrap\SASS)
+>> 4. Научиться работать с Anime.js, Glider.js
 
-Окончательный срок **29.04.2020**
+>Окончательный срок **29.04.2020**
 
 ---
 
