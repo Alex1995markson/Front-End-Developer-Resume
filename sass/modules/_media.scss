@@ -1,3 +1,9 @@
+@media (max-width:1061px) {
+    .main_link {
+        flex-direction: column !important;
+        align-items: flex-end;
+    }
+}
 @media (max-width: 660px) {
     .right_svg {
         visibility: hidden;

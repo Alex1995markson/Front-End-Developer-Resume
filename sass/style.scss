@@ -172,3 +172,12 @@ $whiteBlue:#5ec6ff;
         }
     }
 }
+.text-bottom {
+    bottom: 0;
+    left: 0;
+    button {
+        display: inline-block;
+        background-color: yellow;
+        padding: .3rem;
+    }
+}
