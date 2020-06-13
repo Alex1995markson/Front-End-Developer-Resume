@@ -43,7 +43,7 @@ input {
 #header {
     max-height: auto;
     width: 100%;
-    background-image: url('img/header-bg.png');
+    background-image: url('../images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #2c4452;
@@ -89,7 +89,7 @@ input {
     height: 25px;
     background-color: #fff;
     border-radius: 50%;
-    background-image: url('img/eye_simple.png');
+    background-image: url('../images/eye_simple.png');
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: center;
@@ -101,7 +101,7 @@ input {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line.svg');
+    background-image: url('../svg/dotted_line.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     left: -40%;
@@ -130,7 +130,7 @@ form::before {
     right: -6%;
     width: 170px;
     height: 170px;
-    background-image: url('img/sale.png');
+    background-image: url('../images/sale.png');
 } 
 form::after {
     content: '';
@@ -139,7 +139,7 @@ form::after {
     left: 0;
     width: 300px;
     height: 170px;
-    background-image: url('img/special_prop.png');
+    background-image: url('../images/special_prop.png');
     z-index: 999;
 
 } 
@@ -210,7 +210,7 @@ form::after {
 #lose_eye {
     height: auto;
     width: 100%;
-    background-image: url('img/gils.png');
+    background-image: url('../images/gils.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -222,7 +222,7 @@ form::after {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line_white.svg');
+    background-image: url('../svg/dotted_line_white.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     left: -20%;
@@ -278,7 +278,7 @@ form::after {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line_white.svg');
+    background-image: url('../svg/dotted_line_white.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     left: -10%;
@@ -289,7 +289,7 @@ form::after {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line_white.svg');
+    background-image: url('../svg/dotted_line_white.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     right: -10%;
@@ -311,7 +311,7 @@ form::after {
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    background-image: url('img/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+    background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
     position: absolute;
     left: -10%;
     top: -25%;
@@ -320,7 +320,7 @@ form::after {
 #third {
     height: auto;
     width: 100%;
-    background-image: url('img/section3.png');
+    background-image: url('../images/section3.png');
     background-repeat: no-repeat;
     background-size: center cover;   
 }
@@ -334,7 +334,7 @@ form::after {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line.svg');
+    background-image: url('../svg/dotted_line.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     left: -20%;
@@ -349,7 +349,7 @@ form::after {
 #adventures {
     height: auto;
     width: 100%;
-    background-image: url('img/section4.png');
+    background-image: url('../images/section4.png');
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -363,7 +363,7 @@ form::after {
     position: absolute;
     width: 70px;
     height: 3px; 
-    background-image: url('img/dotted_line.svg');
+    background-image: url('../svg/dotted_line.svg');
     background-repeat: no-repeat;
     background-size: 70px 3px;
     left: -20%;
@@ -376,7 +376,7 @@ form::after {
 }
 
 .last-point {
-    list-style-image: url('img/check.svg');    
+    list-style-image: url('../svg/check.svg');    
 }
 .last-point li {
     padding-bottom: 15px;
