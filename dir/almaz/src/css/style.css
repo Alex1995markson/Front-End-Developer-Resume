@@ -19,6 +19,10 @@ label {
 input {
     background-color: #eeeeee !important;
 }
+.header_wrapper {
+    max-width: 1140px !important;
+    margin: 0 auto;
+}
 .myButton {
     width: 100%;
     box-shadow: 0px 9px 0px #97000a, 0px 9px 25px rgba(173, 0, 0, 0.7);
@@ -44,7 +48,6 @@ input {
 /* style for header */
 #header {
     width: 100%;
-    height: auto;
     background-image: url('../images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,11 +55,7 @@ input {
     /* padding-bottom: 10px; */
 }
 /* we use a this wrapper only for header*/
-.header_wrapper {
-    max-width: 1250px;
-    margin: 0 auto;
-    /* padding-top: 2.5em; */
-}
+
 .header_title {
     line-height: 100%;
 }
@@ -78,10 +77,11 @@ input {
 .header_other > span {
     color:#10b18d;
 }
+
 .advantages  {
     list-style: none;
     padding-top: 1.526em;
-    padding-left: 21%;
+    padding-left: 24%;
 }
 .advantages > li {
     position: relative;
@@ -175,7 +175,7 @@ form::after {
     width: 70px;
     height: 70px;
     font-size: 32px;
-    padding-top: 6px;
+    padding-top: 10px;
     border-radius: 50%;
     text-align: center;
     align-self: center;
@@ -419,8 +419,8 @@ form::after {
  {
     .header_wrapper {
         max-width: auto !important;
-        margin: 10px;
-        box-sizing: border-box; 
+        margin: 0 auto;
+        padding: 15px;
     }
     .wrapper {
         width: auto !important;
@@ -507,5 +507,22 @@ form::after {
 @media only screen and (max-width: 500px) {
     .last-point {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .d-md-noneBlock {
+        display: none;
+    }
+    .advantages {
+        padding-left: 20%;
+    }
+    .labels {
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .advantages > li::after {
+        all:unset;
     }
 }

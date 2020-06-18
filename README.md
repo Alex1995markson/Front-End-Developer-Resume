@@ -59,3 +59,14 @@
 
 >Окончательный срок **XX.XX.2020**
 
+---
+
+# [Glaz Almaz](https://alex1995markson.github.io/Front-End-Developer-Resume/dir/almaz/index.html "Glaz Almaz")
+
+>HTML5/CSS3, Bootstrap 4, Gulp 4.
+
+>>  Проект для web-студии
+
+
+>Окончательный срок **18.06.2020**
+
