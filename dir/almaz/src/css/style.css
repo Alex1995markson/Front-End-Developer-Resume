@@ -1,3 +1,7 @@
+/* common style */
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -8,7 +12,6 @@ body {
 }
 form {
     font-family: 'Bebas Neue', cursive; 
-
 }
 label {
     font-size: 0.74em;
@@ -18,11 +21,10 @@ input {
 }
 .myButton {
     width: 100%;
-	box-shadow: 0px 14px 16px -1px #685f5e;
+    box-shadow: 0px 9px 0px #97000a, 0px 9px 25px rgba(173, 0, 0, 0.7);
 	background:linear-gradient(to bottom, #d7020f 5%, #e22530 100%);
-	background-color:#af2c20;
-	border-radius:16px;
-	border:1px solid #ffffff;
+    border-radius:30px;
+    border:0;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -32,8 +34,8 @@ input {
 	text-shadow:0px 1px 0px #797272;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #790008 5%, #8f181e 100%);
-	background-color:#bb2015;
+	background:linear-gradient(to bottom, #b40d18 5%, #ac0009 100%);
+	background-color:#c40000;
 }
 .myButton:active {
 	position:relative;
@@ -41,18 +43,22 @@ input {
 }
 /* style for header */
 #header {
-    max-height: auto;
     width: 100%;
+    height: auto;
     background-image: url('../images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #2c4452;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
+/* we use a this wrapper only for header*/
 .header_wrapper {
-    max-width: 1250px !important;
+    max-width: 1250px;
     margin: 0 auto;
-    padding-top: 2.5em;
+    /* padding-top: 2.5em; */
+}
+.header_title {
+    line-height: 100%;
 }
 .header_description {
     display: flex;
@@ -67,6 +73,7 @@ input {
 }
 .header_other {
     font-size: 3.375rem;
+    padding: 0;
 }
 .header_other > span {
     color:#10b18d;
@@ -80,7 +87,6 @@ input {
     position: relative;
     margin-top: 1em;
     font-weight: bold;
-
 }
 .advantages >li::before {
     content: '';
@@ -91,7 +97,7 @@ input {
     border-radius: 50%;
     background-image: url('../images/eye_simple.png');
     background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-size: 20px 17px;
     background-position: center;
     left: -15%;
     top: 0;
@@ -203,6 +209,7 @@ form::after {
 .diliver {
     width: 30px;
     height: 30px;
+    color: #fff;
     text-align: center;
     align-self: center;
 
@@ -238,13 +245,15 @@ form::after {
     padding-bottom: 30px;
 }
 .text_block > h3 > span {
-    
     color: #db010e;
 }
 .text_block {
     font-weight: 400;
     font-size: 17px;
     color: #2c4452;
+}
+.text_block > p {
+    font-weight: 500;
 }
 .white_text {
     font-weight: 400;
@@ -301,7 +310,7 @@ form::after {
     padding: 10px 20px;
     width: 410px;
     font-size: 25px;
-    padding-left: 80px;
+    padding-left: 50px;
     background-color: #fcbec1;
     border-radius: 24px;
     position: relative;
@@ -315,6 +324,26 @@ form::after {
     position: absolute;
     left: -10%;
     top: -25%;
+}
+.item:nth-child(2)::before {
+    background-image: url('../images/giewf.png');
+}
+.item:nth-child(3)::before {
+    background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+}
+.item:nth-child(4)::before {
+    background-image: url('../images/lamp.png');
+}
+.item:nth-child(5)::before {
+    background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+}
+.item:nth-child(6)::before {
+    background-image: url('../images/lamp.png');
+}
+.ill_big_eye {
+    background-image: url('../images/big_eye.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #third {
@@ -346,6 +375,11 @@ form::after {
     color: #2c4452;
     margin: 15px 0;
 }
+.product_ill_hero {
+    background-image: url('../images/product_3.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 #adventures {
     height: auto;
     width: 100%;
@@ -369,15 +403,109 @@ form::after {
     left: -20%;
     top: 50%; 
 }
-
 .head > span {
     text-transform: uppercase;
     color: #57a1cf;
 }
-
 .last-point {
     list-style-image: url('../svg/check.svg');    
 }
 .last-point li {
     padding-bottom: 15px;
+}
+
+/* media quer */
+@media only screen and (max-width: 1200px) and (min-width: 320px) 
+ {
+    .header_wrapper {
+        max-width: auto !important;
+        margin: 10px;
+        box-sizing: border-box; 
+    }
+    .wrapper {
+        width: auto !important;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    #ill .col-sm-12 {
+        margin: 0 auto;
+    }
+    #adventures .col-sm-12 {
+        margin: 0 auto;
+    }
+    #lose_eye .title::before {
+        all:unset;
+        content: none;
+    }
+    .ill_title {
+        margin: 10px;
+    }
+    #adventures .head {
+        font-size: 30px;
+    }
+    .ill_title::before {
+        all: unset;
+    }
+    .ill_title::after {
+        all: unset;
+    }
+    .name::before {
+        all: unset;
+    }
+    #advantages > .head::before {
+        all: unset;
+    } 
+    .header_name {
+        font-size: 24px;
+    }   
+}
+@media only screen and (max-width: 940px) {
+    .wrap_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .item {
+        display: block;
+        margin-bottom: 30px;
+        padding: 10px 15px;
+        width: 300px;
+        font-size: 16px;
+        padding-left: 30px; 
+        background-color: #fcbec1;
+        border-radius: 24px;
+        position: relative;
+    }
+    .item::before {
+        all: unset;
+        content: '';
+        background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+        border-radius: 50%;
+        display:block;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        right: -15%;
+        top: -12%;
+    }
+    .item:nth-child(2)::before {
+        background-image: url('../images/giewf.png');
+    }
+    .item:nth-child(3)::before {
+        background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+    }
+    .item:nth-child(4)::before {
+        background-image: url('../images/lamp.png');
+    }
+    .item:nth-child(5)::before {
+        background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
+    }
+    .item:nth-child(6)::before {
+        background-image: url('../images/lamp.png');
+    }
+}
+@media only screen and (max-width: 500px) {
+    .last-point {
+        text-align: center;
+    }
 }
