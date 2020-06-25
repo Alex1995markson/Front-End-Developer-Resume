@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: #1e5799; 
+    background: -moz-linear-gradient(top,  #1e5799 0%, #207cca 44%, #207cca 44%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#207cca 44%,#207cca 44%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1e5799 0%,#207cca 44%,#207cca 44%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+.textOutput {
+    text-align: center;
+}
+.center {
+    background-color: transparent;
+    width: auto;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  background-color: transparent;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #15cae2;
+    transition: all .35s;
+}
+  
+button:hover{
+    color: #fff;
+}
+  
+button:hover:after{
+    width: 100%;
+}
+#intCounter {
+    font-size: 70px;
+}

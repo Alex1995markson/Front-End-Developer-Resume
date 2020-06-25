@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div>click me</div>
+<script>
+document.querySelector('div').addEventListener('click',function(){
+console.log('me too, but nothing from the event flow!');
+},false);
+document.querySelector('div').addEventListener('click',function(event){
+console.log('invoked all click events attached, but cancel capture andbubble event phases');
+event.stopPropagation();
+},false);
+document.querySelector('div').addEventListener('click',function(){
+console.log('me too, but nothing from the event flow!');
+},false);
+/* when the <div> is clicked, this event is not invoked because one of the events
+attached to the <div> stops the capture and bubble flow. */
+document.body.addEventListener('click',function(){
+console.log('What, denied from being invoked!');
+},false);
+</script>
+</body>
+</html>
