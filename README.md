@@ -71,7 +71,7 @@
 >Окончательный срок **18.06.2020**
 
 
-# [Catalog] (https://alex1995markson.github.io/Front-End-Developer-Resume/dir/gridItemAndAnalysis/index.html)
+# [Catalog](https://alex1995markson.github.io/Front-End-Developer-Resume/dir/gridItemAndAnalysis/index.html)
 
 > HTML5/CSS3, Bootstrap 4, SASS, Gulp 4
 
