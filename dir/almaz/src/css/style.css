@@ -348,7 +348,7 @@ form::after {
 
 #third {
     height: auto;
-    max-width: 100%;
+    width: 100%;
     background-image: url('../images/section3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,9 +468,9 @@ form::after {
     .item {
         display: block;
         margin-bottom: 30px;
-        padding: 10px 15px;
-        width: 300px;
-        font-size: 16px;
+        padding: 10px 2px;
+        width: 250px;
+        font-size: 10px;
         padding-left: 30px; 
         background-color: #fcbec1;
         border-radius: 24px;
@@ -480,13 +480,13 @@ form::after {
         all: unset;
         content: '';
         background-image: url('../images/stock-photo-cropped-image-of-a-young-man-working-on-his-laptop.png');
-        border-radius: 50%;
-        display:block;
-        width: 70px;
-        height: 70px;
+        width: 61px;
+        height: 60px;
+        /* display: block; */
+        border-radius: 15px;
         position: absolute;
-        right: -15%;
-        top: -12%;
+        right: -2%;
+        top: -10%;
     }
     .item:nth-child(2)::before {
         background-image: url('../images/giewf.png');
@@ -530,5 +530,8 @@ form::after {
 @media only screen and (max-width: 800px) {
     .advantages > li::after {
         all:unset;
+    }
+    .product_ill_hero {
+        display: none;
     }
 }
